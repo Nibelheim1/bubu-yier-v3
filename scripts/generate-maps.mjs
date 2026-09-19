@@ -87,9 +87,9 @@ export function generateLevel(level){
         const name=spark(`lamp-${i}`,dx,top-56,{switchKind:'lamp',order:i});seq.push({type:'switch',id:name});
       }finishY=496;
     }else if(kind==='balloons'||kind==='air-chain'){
-      const dxs=kind==='balloons'?[175,365,555]:[155,350,555],ys=kind==='balloons'?[438,426,448]:[406,382,414];
+      const dxs=kind==='balloons'?[175,365,555]:[165,350,535],ys=kind==='balloons'?[438,426,448]:[430,410,430];
       if(kind==='air-chain'){
-        add('springs',`${cid}-spring`,x-38,y-15,76,15,{...common,impulse:-600,kind:'rainbow'});
+        add('springs',`${cid}-spring`,x-38,y-15,76,15,{...common,impulse:-650,kind:'rainbow'});
         spark('spark-0',65,440,{switchKind:'spark',radius:45});spark('spark-1',655,435,{switchKind:'spark',radius:45});
         count=5;
       }
@@ -102,8 +102,8 @@ export function generateLevel(level){
       finishY=510;finishX=x+748;
       // A safety ledge is intentionally below the balloons, not a wall.
     }else if(kind==='carousel'){
-      for(let i=0;i<3;i++)land(`horse-${i}`,170+i*178,[524,484,508][i],{kind:'horse',moving:true,axis:'vertical',distance:42,speed:30,
-        pingPong:true,phase:i/3,width:132,requirePerfect:i===2,forcePerfect:true});finishY=500;
+      for(let i=0;i<3;i++)land(`horse-${i}`,[108,300,482][i],[530,502,520][i],{kind:'horse',moving:i<2,axis:'vertical',distance:[22,22,0][i],speed:22,
+        pingPong:true,phase:i/3,width:[160,168,210][i],requirePerfect:false,forcePerfect:i===2,widthRatioOverride:i===2?.68:undefined});finishY=500;
     }else if(kind==='fireflies'){
       for(let i=0;i<4;i++){
         const dx=[12,178,348,518][i],top=[544,516,476,444][i],group=`${cid}-tree-${i}`;
@@ -129,7 +129,7 @@ export function generateLevel(level){
     add('photos',pid,finishX-36,finishY-86,72,86,{photoId:pid,challengeId:cid});
     add('challengeTriggers',cid,x-45,y-94,90,98,{challengeId:cid,challengeKind:kind,photoId:pid,
       timeLimitMs:kind==='fireflies'?14000:kind==='carousel'?14000:12000,retryDelayMs:1000,
-      entryX:x,entryY:y+26,finishX,finishY,sequence:seq,eventCount:count,
+      entryX:x,entryY:y,entryTolerance:24,finishX,finishY,sequence:seq,eventCount:count,
       failOnGround:kind!=='meteor',boundsLeft:x-128,boundsRight:finishX+130,boundsBottom:648});
     add('routeBranches',`${cid}-route`,x-45,y-100,800,100,{route:'photo'});
     courseByModule[m]={x,y,cid,finishX,finishY};

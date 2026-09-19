@@ -21,12 +21,16 @@ export class InputSystem {
   listen(target,type,fn,opts){target.addEventListener(type,fn,opts);this.cleanups.push(()=>target.removeEventListener(type,fn,opts));}
   bindControls(root){
     for(const el of root.querySelectorAll('[data-control]')){
-      const down=e=>{if(!this.enabled)return;e.preventDefault();this.onUnlock();
+      const down=e=>{if(!this.enabled)return;e.preventDefault();e.stopPropagation();this.onUnlock();
+        // Each physical finger owns exactly one action. Adding a jump finger must not
+        // replace the already-held movement finger.
         this.pointers.set(e.pointerId,{action:el.dataset.control,element:el});if(el.dataset.control==='jump')this.jumpQueued=true;
         el.classList.add('held');try{el.setPointerCapture(e.pointerId);}catch{};};
+      const up=e=>{e.preventDefault();e.stopPropagation();this.releasePointer(e.pointerId);};
+      const cancel=e=>{e.preventDefault();e.stopPropagation();const action=this.pointers.get(e.pointerId)?.action;this.releasePointer(e.pointerId);if(action==='jump')this.jumpQueued=false;};
       const lost=e=>this.releasePointer(e.pointerId);
-      el.addEventListener('pointerdown',down);el.addEventListener('lostpointercapture',lost);
-      el._disposeInput=()=>{el.removeEventListener('pointerdown',down);el.removeEventListener('lostpointercapture',lost);};
+      el.addEventListener('pointerdown',down);el.addEventListener('pointerup',up);el.addEventListener('pointercancel',cancel);el.addEventListener('lostpointercapture',lost);
+      el._disposeInput=()=>{el.removeEventListener('pointerdown',down);el.removeEventListener('pointerup',up);el.removeEventListener('pointercancel',cancel);el.removeEventListener('lostpointercapture',lost);};
     }
   }
   releasePointer(id){const p=this.pointers.get(id);this.pointers.delete(id);if(p&&!Array.from(this.pointers.values()).some(x=>x.element===p.element))p.element.classList.remove('held');}

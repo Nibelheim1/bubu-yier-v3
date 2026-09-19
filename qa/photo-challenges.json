@@ -10,8 +10,8 @@
         "screen": "game",
         "level": "level_01_commute",
         "character": "bubu",
-        "x": 1372,
-        "y": 544,
+        "x": 1380,
+        "y": 576,
         "vx": 0,
         "vy": 0,
         "grounded": true,
@@ -44,9 +44,9 @@
             "done": 1,
             "total": 3
           },
-          "x": 1543.9666666666633,
+          "x": 1559.6333333333298,
           "y": 516,
-          "targetX": 1547.333333333333,
+          "targetX": 1557.9999999999995,
           "targetY": 516,
           "perfect": 0
         },
@@ -58,10 +58,10 @@
             "done": 2,
             "total": 3
           },
-          "x": 1713.26666666666,
-          "y": 478.7333333333331,
-          "targetX": 1712,
-          "targetY": 478.7333333333331,
+          "x": 1720.833333333327,
+          "y": 476.8166666666665,
+          "targetX": 1720,
+          "targetY": 476.8166666666665,
           "perfect": 0
         },
         {
@@ -72,9 +72,9 @@
             "done": 3,
             "total": 3
           },
-          "x": 1904.4999999999895,
+          "x": 1912.0666666666564,
           "y": 468,
-          "targetX": 1905.699999999998,
+          "targetX": 1914.5666666666648,
           "targetY": 468,
           "perfect": 0
         },
@@ -86,9 +86,9 @@
             "done": 0,
             "total": 0
           },
-          "x": 2078.5999999999863,
+          "x": 2085.7333333333195,
           "y": 492,
-          "targetX": 2076,
+          "targetX": 2084,
           "targetY": 492,
           "perfect": 0
         }
@@ -97,7 +97,7 @@
         "screen": "game",
         "level": "level_01_commute",
         "character": "bubu",
-        "x": 2078.5999999999863,
+        "x": 2085.7333333333195,
         "y": 492,
         "vx": 0,
         "vy": 0,
@@ -112,7 +112,7 @@
         "photos": [
           "level_01_commute_photo_1"
         ],
-        "elapsed": 5033.333333333336,
+        "elapsed": 5016.666666666669,
         "paused": false,
         "challenge": null
       },
@@ -128,8 +128,8 @@
         "screen": "game",
         "level": "level_01_commute",
         "character": "bubu",
-        "x": 3676,
-        "y": 544,
+        "x": 3684,
+        "y": 576,
         "vx": 0,
         "vy": 0,
         "grounded": true,
@@ -163,9 +163,9 @@
             "done": 1,
             "total": 3
           },
-          "x": 3878.583333333341,
+          "x": 3886.583333333341,
           "y": 544,
-          "targetX": 3876.000000000009,
+          "targetX": 3886.333333333343,
           "targetY": 544,
           "perfect": 0
         },
@@ -177,9 +177,9 @@
             "done": 2,
             "total": 3
           },
-          "x": 4014.000000000012,
+          "x": 4025.250000000012,
           "y": 464,
-          "targetX": 4018,
+          "targetX": 4026,
           "targetY": 464,
           "perfect": 1
         },
@@ -191,9 +191,9 @@
             "done": 3,
             "total": 3
           },
-          "x": 4190.333333333344,
+          "x": 4197.75000000001,
           "y": 408,
-          "targetX": 4188,
+          "targetX": 4196,
           "targetY": 408,
           "perfect": 2
         },
@@ -205,9 +205,9 @@
             "done": 0,
             "total": 0
           },
-          "x": 4381.999999999995,
+          "x": 4389.4166666666615,
           "y": 432,
-          "targetX": 4380,
+          "targetX": 4388,
           "targetY": 432,
           "perfect": 2
         }
@@ -216,7 +216,7 @@
         "screen": "game",
         "level": "level_01_commute",
         "character": "bubu",
-        "x": 4381.999999999995,
+        "x": 4389.4166666666615,
         "y": 432,
         "vx": 0,
         "vy": 0,
@@ -232,7 +232,7 @@
           "level_01_commute_photo_1",
           "level_01_commute_photo_2"
         ],
-        "elapsed": 4833.333333333332,
+        "elapsed": 4783.333333333331,
         "paused": false,
         "challenge": null
       },
@@ -248,8 +248,8 @@
         "screen": "game",
         "level": "level_01_commute",
         "character": "bubu",
-        "x": 7132,
-        "y": 544,
+        "x": 7140,
+        "y": 576,
         "vx": 0,
         "vy": 0,
         "grounded": true,
@@ -284,9 +284,9 @@
             "done": 1,
             "total": 3
           },
-          "x": 7304.499999999986,
+          "x": 7312.499999999986,
           "y": 511.99999999999994,
-          "targetX": 7302,
+          "targetX": 7310,
           "targetY": 512,
           "perfect": 1
         },
@@ -298,9 +298,9 @@
             "done": 2,
             "total": 3
           },
-          "x": 7473.16666666664,
+          "x": 7481.16666666664,
           "y": 464,
-          "targetX": 7472,
+          "targetX": 7480,
           "targetY": 464,
           "perfect": 2
         },
@@ -312,9 +312,9 @@
             "done": 3,
             "total": 3
           },
-          "x": 7645.666666666626,
+          "x": 7653.666666666626,
           "y": 464,
-          "targetX": 7642,
+          "targetX": 7650,
           "targetY": 464,
           "perfect": 3
         },
@@ -326,9 +326,9 @@
             "done": 0,
             "total": 0
           },
-          "x": 7837.333333333278,
+          "x": 7845.333333333278,
           "y": 496,
-          "targetX": 7836,
+          "targetX": 7844,
           "targetY": 496,
           "perfect": 3
         }
@@ -337,7 +337,7 @@
         "screen": "game",
         "level": "level_01_commute",
         "character": "bubu",
-        "x": 7837.333333333278,
+        "x": 7845.333333333278,
         "y": 496,
         "vx": 0,
         "vy": 0,
@@ -354,7 +354,7 @@
           "level_01_commute_photo_2",
           "level_01_commute_photo_3"
         ],
-        "elapsed": 5083.333333333337,
+        "elapsed": 5000.000000000002,
         "paused": false,
         "challenge": null
       },
@@ -370,18 +370,18 @@
         "screen": "game",
         "level": "level_02_park",
         "character": "bubu",
-        "x": 1372,
-        "y": 544,
+        "x": 1390,
+        "y": 568,
         "vx": 0,
         "vy": 0,
         "grounded": true,
         "surface": null,
         "hearts": 3,
         "damage": 0,
-        "combo": 0,
-        "maxCombo": 0,
+        "combo": 1,
+        "maxCombo": 1,
         "perfect": 0,
-        "happiness": 0,
+        "happiness": 1,
         "photos": [
           "level_02_park_photo_1"
         ],
@@ -398,53 +398,53 @@
       "steps": [
         {
           "kind": "balloons",
-          "frames": 192,
+          "frames": 189,
           "state": {
             "screen": "game",
             "level": "level_02_park",
             "character": "bubu",
-            "x": 2107.9999999999873,
-            "y": 510.00000000000006,
+            "x": 2114.499999999988,
+            "y": 510,
             "vx": 230,
             "vy": 0,
             "grounded": true,
             "surface": null,
             "hearts": 3,
             "damage": 0,
-            "combo": 4,
-            "maxCombo": 4,
+            "combo": 5,
+            "maxCombo": 5,
             "perfect": 0,
-            "happiness": 1,
+            "happiness": 2,
             "photos": [
               "level_02_park_photo_1"
             ],
-            "elapsed": 3849.9999999999873,
+            "elapsed": 3799.9999999999877,
             "paused": false,
             "challenge": null
           },
           "events": [
             {
-              "runId": "run-mu76e7l1",
+              "runId": "run-mu7rol4r",
               "type": "photo_challenge_success",
-              "t": 5033,
+              "t": 4950,
               "challengeId": "challenge-3",
               "photoId": "level_01_commute_photo_3",
-              "timeMs": 4883
+              "timeMs": 4800
             },
             {
-              "runId": "run-mu76e7l1",
+              "runId": "run-mu7rol4r",
               "type": "photo_challenge_start",
               "t": 150,
               "challengeId": "challenge-1",
               "photoId": "level_02_park_photo_1"
             },
             {
-              "runId": "run-mu76e7l1",
+              "runId": "run-mu7rol4r",
               "type": "photo_challenge_success",
-              "t": 3850,
+              "t": 3800,
               "challengeId": "challenge-1",
               "photoId": "level_02_park_photo_1",
-              "timeMs": 3700
+              "timeMs": 3650
             }
           ]
         }
@@ -453,7 +453,7 @@
         "screen": "game",
         "level": "level_02_park",
         "character": "bubu",
-        "x": 2111.8333333333208,
+        "x": 2118.3333333333217,
         "y": 510,
         "vx": 0,
         "vy": 0,
@@ -461,14 +461,14 @@
         "surface": null,
         "hearts": 3,
         "damage": 0,
-        "combo": 4,
-        "maxCombo": 4,
+        "combo": 5,
+        "maxCombo": 5,
         "perfect": 0,
-        "happiness": 1,
+        "happiness": 2,
         "photos": [
           "level_02_park_photo_1"
         ],
-        "elapsed": 3866.666666666654,
+        "elapsed": 3816.6666666666542,
         "paused": false,
         "challenge": null
       },
@@ -484,8 +484,8 @@
         "screen": "game",
         "level": "level_02_park",
         "character": "bubu",
-        "x": 4828,
-        "y": 544,
+        "x": 4846,
+        "y": 568,
         "vx": 0,
         "vy": 0,
         "grounded": true,
@@ -519,10 +519,10 @@
             "done": 1,
             "total": 3
           },
-          "x": 5000.499999999986,
-          "y": 554.5,
-          "targetX": 4998,
-          "targetY": 554.5,
+          "x": 4949.499999999992,
+          "y": 536.9666666666662,
+          "targetX": 4954,
+          "targetY": 536.9666666666664,
           "perfect": 1
         },
         {
@@ -533,10 +533,10 @@
             "done": 2,
             "total": 3
           },
-          "x": 5180.666666666639,
-          "y": 513,
-          "targetX": 5176,
-          "targetY": 513,
+          "x": 5150.499999999986,
+          "y": 509.6999999999997,
+          "targetX": 5146,
+          "targetY": 509.6999999999997,
           "perfect": 2
         },
         {
@@ -547,10 +547,10 @@
             "done": 3,
             "total": 3
           },
-          "x": 5356.999999999958,
-          "y": 515.5,
-          "targetX": 5354,
-          "targetY": 515.5,
+          "x": 5330.666666666639,
+          "y": 520,
+          "targetX": 5328,
+          "targetY": 520,
           "perfect": 3
         },
         {
@@ -561,9 +561,9 @@
             "done": 0,
             "total": 0
           },
-          "x": 5533.333333333278,
+          "x": 5552.9999999999545,
           "y": 500,
-          "targetX": 5532,
+          "targetX": 5550,
           "targetY": 500,
           "perfect": 3
         }
@@ -572,7 +572,7 @@
         "screen": "game",
         "level": "level_02_park",
         "character": "bubu",
-        "x": 5533.333333333278,
+        "x": 5552.9999999999545,
         "y": 500,
         "vx": 0,
         "vy": 0,
@@ -580,15 +580,15 @@
         "surface": null,
         "hearts": 3,
         "damage": 0,
-        "combo": 4,
-        "maxCombo": 4,
+        "combo": 5,
+        "maxCombo": 5,
         "perfect": 3,
-        "happiness": 1,
+        "happiness": 2,
         "photos": [
           "level_02_park_photo_1",
           "level_02_park_photo_2"
         ],
-        "elapsed": 5116.666666666671,
+        "elapsed": 5383.333333333342,
         "paused": false,
         "challenge": null
       },
@@ -604,8 +604,8 @@
         "screen": "game",
         "level": "level_02_park",
         "character": "bubu",
-        "x": 7132,
-        "y": 544,
+        "x": 7150,
+        "y": 568,
         "vx": 0,
         "vy": 0,
         "grounded": true,
@@ -634,12 +634,12 @@
       "steps": [
         {
           "kind": "air-chain",
-          "frames": 187,
+          "frames": 186,
           "state": {
             "screen": "game",
             "level": "level_02_park",
             "character": "bubu",
-            "x": 7848.833333333277,
+            "x": 7862.999999999944,
             "y": 510.00000000000006,
             "vx": 230,
             "vy": 0,
@@ -647,42 +647,42 @@
             "surface": null,
             "hearts": 3,
             "damage": 0,
-            "combo": 6,
-            "maxCombo": 6,
+            "combo": 5,
+            "maxCombo": 5,
             "perfect": 0,
-            "happiness": 1,
+            "happiness": 0,
             "photos": [
               "level_02_park_photo_1",
               "level_02_park_photo_2",
               "level_02_park_photo_3"
             ],
-            "elapsed": 3766.6666666666547,
+            "elapsed": 3749.999999999988,
             "paused": false,
             "challenge": null
           },
           "events": [
             {
-              "runId": "run-mu76e7l1",
+              "runId": "run-mu7rol4r",
               "type": "photo_challenge_success",
-              "t": 5067,
+              "t": 5333,
               "challengeId": "challenge-2",
               "photoId": "level_02_park_photo_2",
-              "timeMs": 4917
+              "timeMs": 5183
             },
             {
-              "runId": "run-mu76e7l1",
+              "runId": "run-mu7rol4r",
               "type": "photo_challenge_start",
               "t": 150,
               "challengeId": "challenge-3",
               "photoId": "level_02_park_photo_3"
             },
             {
-              "runId": "run-mu76e7l1",
+              "runId": "run-mu7rol4r",
               "type": "photo_challenge_success",
-              "t": 3767,
+              "t": 3750,
               "challengeId": "challenge-3",
               "photoId": "level_02_park_photo_3",
-              "timeMs": 3617
+              "timeMs": 3600
             }
           ]
         }
@@ -691,7 +691,7 @@
         "screen": "game",
         "level": "level_02_park",
         "character": "bubu",
-        "x": 7852.66666666661,
+        "x": 7866.833333333277,
         "y": 510,
         "vx": 0,
         "vy": 0,
@@ -708,7 +708,7 @@
           "level_02_park_photo_2",
           "level_02_park_photo_3"
         ],
-        "elapsed": 3783.333333333321,
+        "elapsed": 3766.6666666666547,
         "paused": false,
         "challenge": null
       },
@@ -724,8 +724,8 @@
         "screen": "game",
         "level": "level_03_starlight",
         "character": "bubu",
-        "x": 1372,
-        "y": 544,
+        "x": 2532,
+        "y": 560,
         "vx": 0,
         "vy": 0,
         "grounded": true,
@@ -758,9 +758,9 @@
             "done": 2,
             "total": 4
           },
-          "x": 1552.166666666663,
+          "x": 2714.006666666665,
           "y": 516,
-          "targetX": 1550,
+          "targetX": 2710,
           "targetY": 516,
           "perfect": 0
         },
@@ -772,9 +772,9 @@
             "done": 3,
             "total": 4
           },
-          "x": 1720.8333333333264,
+          "x": 2875.926666666663,
           "y": 476,
-          "targetX": 1720,
+          "targetX": 2880,
           "targetY": 476,
           "perfect": 0
         },
@@ -786,9 +786,9 @@
             "done": 4,
             "total": 4
           },
-          "x": 1885.6666666666565,
+          "x": 3045.5133333333283,
           "y": 444,
-          "targetX": 1890,
+          "targetX": 3050,
           "targetY": 444,
           "perfect": 0
         },
@@ -800,9 +800,9 @@
             "done": 0,
             "total": 0
           },
-          "x": 2061.9999999999854,
+          "x": 3227.826666666667,
           "y": 464,
-          "targetX": 2066,
+          "targetX": 3226,
           "targetY": 464,
           "perfect": 0
         }
@@ -811,7 +811,7 @@
         "screen": "game",
         "level": "level_03_starlight",
         "character": "bubu",
-        "x": 2061.9999999999854,
+        "x": 3227.826666666667,
         "y": 464,
         "vx": 0,
         "vy": 0,
@@ -826,7 +826,7 @@
         "photos": [
           "level_03_starlight_photo_1"
         ],
-        "elapsed": 5066.66666666667,
+        "elapsed": 5550.000000000012,
         "paused": false,
         "challenge": null
       },
@@ -842,8 +842,8 @@
         "screen": "game",
         "level": "level_03_starlight",
         "character": "bubu",
-        "x": 4828,
-        "y": 544,
+        "x": 4836,
+        "y": 560,
         "vx": 0,
         "vy": 0,
         "grounded": true,
@@ -877,9 +877,9 @@
             "done": 1,
             "total": 5
           },
-          "x": 4923.833333333326,
+          "x": 4935.666666666659,
           "y": 544,
-          "targetX": 4928,
+          "targetX": 4936,
           "targetY": 544,
           "perfect": 1
         },
@@ -891,9 +891,9 @@
             "done": 2,
             "total": 5
           },
-          "x": 5065.666666666648,
+          "x": 5073.666666666648,
           "y": 500,
-          "targetX": 5063,
+          "targetX": 5071,
           "targetY": 500,
           "perfect": 2
         },
@@ -905,9 +905,9 @@
             "done": 3,
             "total": 5
           },
-          "x": 5199.833333333304,
+          "x": 5207.833333333304,
           "y": 500,
-          "targetX": 5198,
+          "targetX": 5206,
           "targetY": 500,
           "perfect": 3
         },
@@ -919,9 +919,9 @@
             "done": 4,
             "total": 5
           },
-          "x": 5333.99999999996,
+          "x": 5341.99999999996,
           "y": 452,
-          "targetX": 5333,
+          "targetX": 5341,
           "targetY": 452,
           "perfect": 4
         },
@@ -933,9 +933,9 @@
             "done": 5,
             "total": 5
           },
-          "x": 5468.166666666616,
+          "x": 5476.166666666616,
           "y": 480,
-          "targetX": 5468,
+          "targetX": 5476,
           "targetY": 480,
           "perfect": 5
         },
@@ -947,9 +947,9 @@
             "done": 0,
             "total": 0
           },
-          "x": 5598.499999999939,
+          "x": 5606.499999999939,
           "y": 504,
-          "targetX": 5596,
+          "targetX": 5604,
           "targetY": 504,
           "perfect": 5
         }
@@ -958,7 +958,7 @@
         "screen": "game",
         "level": "level_03_starlight",
         "character": "bubu",
-        "x": 5598.499999999939,
+        "x": 5606.499999999939,
         "y": 504,
         "vx": 0,
         "vy": 0,
@@ -974,7 +974,7 @@
           "level_03_starlight_photo_1",
           "level_03_starlight_photo_2"
         ],
-        "elapsed": 7083.333333333373,
+        "elapsed": 7133.333333333374,
         "paused": false,
         "challenge": null
       },
@@ -990,8 +990,8 @@
         "screen": "game",
         "level": "level_03_starlight",
         "character": "bubu",
-        "x": 7132,
-        "y": 544,
+        "x": 7140,
+        "y": 560,
         "vx": 0,
         "vy": 0,
         "grounded": true,
@@ -1026,9 +1026,9 @@
             "done": 2,
             "total": 3
           },
-          "x": 7358.166666666649,
+          "x": 7366.166666666649,
           "y": 504,
-          "targetX": 7357,
+          "targetX": 7365,
           "targetY": 504,
           "perfect": 0
         },
@@ -1040,9 +1040,9 @@
             "done": 3,
             "total": 3
           },
-          "x": 7580.4999999999645,
+          "x": 7588.4999999999645,
           "y": 464,
-          "targetX": 7580,
+          "targetX": 7588,
           "targetY": 464,
           "perfect": 0
         },
@@ -1054,9 +1054,9 @@
             "done": 0,
             "total": 0
           },
-          "x": 7802.83333333328,
+          "x": 7810.83333333328,
           "y": 496,
-          "targetX": 7802,
+          "targetX": 7810,
           "targetY": 496,
           "perfect": 0
         }
@@ -1065,7 +1065,7 @@
         "screen": "game",
         "level": "level_03_starlight",
         "character": "bubu",
-        "x": 7814.333333333279,
+        "x": 7822.333333333279,
         "y": 496,
         "vx": 0,
         "vy": 0,
@@ -1082,7 +1082,7 @@
           "level_03_starlight_photo_2",
           "level_03_starlight_photo_3"
         ],
-        "elapsed": 4066.666666666652,
+        "elapsed": 4016.6666666666524,
         "paused": false,
         "challenge": null
       },
@@ -1098,8 +1098,8 @@
         "screen": "game",
         "level": "level_01_commute",
         "character": "yier",
-        "x": 1372,
-        "y": 544,
+        "x": 1380,
+        "y": 576,
         "vx": 0,
         "vy": 0,
         "grounded": true,
@@ -1134,9 +1134,9 @@
             "done": 1,
             "total": 3
           },
-          "x": 1547.7999999999965,
+          "x": 1559.6333333333298,
           "y": 516,
-          "targetX": 1547.8666666666663,
+          "targetX": 1559.0666666666662,
           "targetY": 516,
           "perfect": 0
         },
@@ -1148,10 +1148,10 @@
             "done": 2,
             "total": 3
           },
-          "x": 1713.7999999999934,
-          "y": 479.11666666666645,
-          "targetX": 1712,
-          "targetY": 479.11666666666645,
+          "x": 1724.6666666666601,
+          "y": 475.6666666666665,
+          "targetX": 1720,
+          "targetY": 475.6666666666665,
           "perfect": 0
         },
         {
@@ -1162,9 +1162,9 @@
             "done": 3,
             "total": 3
           },
-          "x": 1905.0333333333228,
+          "x": 1915.8999999999896,
           "y": 468,
-          "targetX": 1906.1333333333314,
+          "targetX": 1916.2999999999984,
           "targetY": 468,
           "perfect": 0
         },
@@ -1176,9 +1176,9 @@
             "done": 0,
             "total": 0
           },
-          "x": 2079.133333333319,
+          "x": 2086.166666666653,
           "y": 492,
-          "targetX": 2076,
+          "targetX": 2084,
           "targetY": 492,
           "perfect": 0
         }
@@ -1187,7 +1187,7 @@
         "screen": "game",
         "level": "level_01_commute",
         "character": "yier",
-        "x": 2067.6333333333187,
+        "x": 2086.166666666653,
         "y": 492,
         "vx": 0,
         "vy": 0,
@@ -1204,7 +1204,7 @@
           "level_01_commute_photo_2",
           "level_01_commute_photo_3"
         ],
-        "elapsed": 5000.000000000002,
+        "elapsed": 4916.666666666667,
         "paused": false,
         "challenge": null
       },
@@ -1220,8 +1220,8 @@
         "screen": "game",
         "level": "level_01_commute",
         "character": "yier",
-        "x": 3676,
-        "y": 544,
+        "x": 3684,
+        "y": 576,
         "vx": 0,
         "vy": 0,
         "grounded": true,
@@ -1256,9 +1256,9 @@
             "done": 1,
             "total": 3
           },
-          "x": 3878.583333333341,
+          "x": 3886.583333333341,
           "y": 544,
-          "targetX": 3876.5833333333426,
+          "targetX": 3886.9166666666765,
           "targetY": 544,
           "perfect": 0
         },
@@ -1270,9 +1270,9 @@
             "done": 2,
             "total": 3
           },
-          "x": 4017.8333333333453,
+          "x": 4021.4166666666783,
           "y": 464,
-          "targetX": 4018,
+          "targetX": 4026,
           "targetY": 464,
           "perfect": 1
         },
@@ -1284,9 +1284,9 @@
             "done": 3,
             "total": 3
           },
-          "x": 4190.333333333344,
+          "x": 4197.75000000001,
           "y": 408,
-          "targetX": 4188,
+          "targetX": 4196,
           "targetY": 408,
           "perfect": 2
         },
@@ -1298,9 +1298,9 @@
             "done": 0,
             "total": 0
           },
-          "x": 4381.999999999995,
+          "x": 4389.4166666666615,
           "y": 432,
-          "targetX": 4380,
+          "targetX": 4388,
           "targetY": 432,
           "perfect": 2
         }
@@ -1309,7 +1309,7 @@
         "screen": "game",
         "level": "level_01_commute",
         "character": "yier",
-        "x": 4381.999999999995,
+        "x": 4389.4166666666615,
         "y": 432,
         "vx": 0,
         "vy": 0,
@@ -1326,7 +1326,7 @@
           "level_01_commute_photo_2",
           "level_01_commute_photo_3"
         ],
-        "elapsed": 4833.333333333332,
+        "elapsed": 4766.666666666664,
         "paused": false,
         "challenge": null
       },
@@ -1342,8 +1342,8 @@
         "screen": "game",
         "level": "level_01_commute",
         "character": "yier",
-        "x": 7132,
-        "y": 544,
+        "x": 7140,
+        "y": 576,
         "vx": 0,
         "vy": 0,
         "grounded": true,
@@ -1378,9 +1378,9 @@
             "done": 1,
             "total": 3
           },
-          "x": 7304.499999999986,
+          "x": 7312.499999999986,
           "y": 512,
-          "targetX": 7302,
+          "targetX": 7310,
           "targetY": 512,
           "perfect": 1
         },
@@ -1392,9 +1392,9 @@
             "done": 2,
             "total": 3
           },
-          "x": 7473.16666666664,
+          "x": 7481.16666666664,
           "y": 464,
-          "targetX": 7472,
+          "targetX": 7480,
           "targetY": 464,
           "perfect": 2
         },
@@ -1406,9 +1406,9 @@
             "done": 3,
             "total": 3
           },
-          "x": 7645.666666666626,
+          "x": 7653.666666666626,
           "y": 464,
-          "targetX": 7642,
+          "targetX": 7650,
           "targetY": 464,
           "perfect": 3
         },
@@ -1420,9 +1420,9 @@
             "done": 0,
             "total": 0
           },
-          "x": 7837.333333333278,
+          "x": 7845.333333333278,
           "y": 496,
-          "targetX": 7836,
+          "targetX": 7844,
           "targetY": 496,
           "perfect": 3
         }
@@ -1431,7 +1431,7 @@
         "screen": "game",
         "level": "level_01_commute",
         "character": "yier",
-        "x": 7837.333333333278,
+        "x": 7845.333333333278,
         "y": 496,
         "vx": 0,
         "vy": 0,
@@ -1448,7 +1448,7 @@
           "level_01_commute_photo_2",
           "level_01_commute_photo_3"
         ],
-        "elapsed": 4966.666666666668,
+        "elapsed": 4883.333333333333,
         "paused": false,
         "challenge": null
       },
@@ -1464,18 +1464,18 @@
         "screen": "game",
         "level": "level_02_park",
         "character": "yier",
-        "x": 1372,
-        "y": 544,
+        "x": 1390,
+        "y": 568,
         "vx": 0,
         "vy": 0,
         "grounded": true,
         "surface": null,
         "hearts": 3,
         "damage": 0,
-        "combo": 0,
-        "maxCombo": 0,
+        "combo": 1,
+        "maxCombo": 1,
         "perfect": 0,
-        "happiness": 0,
+        "happiness": 1,
         "photos": [
           "level_02_park_photo_1",
           "level_02_park_photo_2",
@@ -1494,55 +1494,55 @@
       "steps": [
         {
           "kind": "balloons",
-          "frames": 191,
+          "frames": 189,
           "state": {
             "screen": "game",
             "level": "level_02_park",
             "character": "yier",
-            "x": 2104.166666666654,
-            "y": 510,
+            "x": 2114.499999999988,
+            "y": 510.00000000000006,
             "vx": 230,
             "vy": 0,
             "grounded": true,
             "surface": null,
             "hearts": 3,
             "damage": 0,
-            "combo": 4,
-            "maxCombo": 4,
+            "combo": 5,
+            "maxCombo": 5,
             "perfect": 0,
-            "happiness": 1,
+            "happiness": 2,
             "photos": [
               "level_02_park_photo_1",
               "level_02_park_photo_2",
               "level_02_park_photo_3"
             ],
-            "elapsed": 3833.3333333333208,
+            "elapsed": 3799.9999999999877,
             "paused": false,
             "challenge": null
           },
           "events": [
             {
-              "runId": "run-mu76e7l1",
+              "runId": "run-mu7rol4r",
               "type": "photo_challenge_success",
-              "t": 4917,
+              "t": 4833,
               "challengeId": "challenge-3",
               "photoId": "level_01_commute_photo_3",
-              "timeMs": 4767
+              "timeMs": 4683
             },
             {
-              "runId": "run-mu76e7l1",
+              "runId": "run-mu7rol4r",
               "type": "photo_challenge_start",
               "t": 150,
               "challengeId": "challenge-1",
               "photoId": "level_02_park_photo_1"
             },
             {
-              "runId": "run-mu76e7l1",
+              "runId": "run-mu7rol4r",
               "type": "photo_challenge_success",
-              "t": 3833,
+              "t": 3800,
               "challengeId": "challenge-1",
               "photoId": "level_02_park_photo_1",
-              "timeMs": 3683
+              "timeMs": 3650
             }
           ]
         }
@@ -1551,7 +1551,7 @@
         "screen": "game",
         "level": "level_02_park",
         "character": "yier",
-        "x": 2107.9999999999873,
+        "x": 2118.3333333333217,
         "y": 510,
         "vx": 0,
         "vy": 0,
@@ -1559,16 +1559,16 @@
         "surface": null,
         "hearts": 3,
         "damage": 0,
-        "combo": 4,
-        "maxCombo": 4,
+        "combo": 5,
+        "maxCombo": 5,
         "perfect": 0,
-        "happiness": 1,
+        "happiness": 2,
         "photos": [
           "level_02_park_photo_1",
           "level_02_park_photo_2",
           "level_02_park_photo_3"
         ],
-        "elapsed": 3849.9999999999873,
+        "elapsed": 3816.6666666666542,
         "paused": false,
         "challenge": null
       },
@@ -1584,8 +1584,8 @@
         "screen": "game",
         "level": "level_02_park",
         "character": "yier",
-        "x": 4828,
-        "y": 544,
+        "x": 4846,
+        "y": 568,
         "vx": 0,
         "vy": 0,
         "grounded": true,
@@ -1620,10 +1620,10 @@
             "done": 1,
             "total": 3
           },
-          "x": 5000.499999999986,
-          "y": 555,
-          "targetX": 4998,
-          "targetY": 555,
+          "x": 4949.499999999992,
+          "y": 537.333333333333,
+          "targetX": 4954,
+          "targetY": 537.333333333333,
           "perfect": 1
         },
         {
@@ -1634,10 +1634,10 @@
             "done": 2,
             "total": 3
           },
-          "x": 5176.833333333306,
-          "y": 511.49999999999994,
-          "targetX": 5176,
-          "targetY": 511.5,
+          "x": 5150.499999999986,
+          "y": 510.06666666666644,
+          "targetX": 5146,
+          "targetY": 510.0666666666664,
           "perfect": 2
         },
         {
@@ -1648,10 +1648,10 @@
             "done": 3,
             "total": 3
           },
-          "x": 5356.999999999958,
-          "y": 510.5,
-          "targetX": 5354,
-          "targetY": 510.5,
+          "x": 5330.666666666639,
+          "y": 520,
+          "targetX": 5328,
+          "targetY": 520,
           "perfect": 3
         },
         {
@@ -1662,9 +1662,9 @@
             "done": 0,
             "total": 0
           },
-          "x": 5533.333333333278,
+          "x": 5552.9999999999545,
           "y": 500,
-          "targetX": 5532,
+          "targetX": 5550,
           "targetY": 500,
           "perfect": 3
         }
@@ -1673,7 +1673,7 @@
         "screen": "game",
         "level": "level_02_park",
         "character": "yier",
-        "x": 5533.333333333278,
+        "x": 5552.9999999999545,
         "y": 500,
         "vx": 0,
         "vy": 0,
@@ -1681,16 +1681,16 @@
         "surface": null,
         "hearts": 3,
         "damage": 0,
-        "combo": 4,
-        "maxCombo": 4,
+        "combo": 5,
+        "maxCombo": 5,
         "perfect": 3,
-        "happiness": 1,
+        "happiness": 2,
         "photos": [
           "level_02_park_photo_1",
           "level_02_park_photo_2",
           "level_02_park_photo_3"
         ],
-        "elapsed": 4950.000000000001,
+        "elapsed": 5283.33333333334,
         "paused": false,
         "challenge": null
       },
@@ -1706,8 +1706,8 @@
         "screen": "game",
         "level": "level_02_park",
         "character": "yier",
-        "x": 7132,
-        "y": 544,
+        "x": 7150,
+        "y": 568,
         "vx": 0,
         "vy": 0,
         "grounded": true,
@@ -1736,12 +1736,12 @@
       "steps": [
         {
           "kind": "air-chain",
-          "frames": 187,
+          "frames": 186,
           "state": {
             "screen": "game",
             "level": "level_02_park",
             "character": "yier",
-            "x": 7848.833333333277,
+            "x": 7862.999999999944,
             "y": 509.99999999999994,
             "vx": 230,
             "vy": 0,
@@ -1749,42 +1749,42 @@
             "surface": null,
             "hearts": 3,
             "damage": 0,
-            "combo": 6,
-            "maxCombo": 6,
+            "combo": 5,
+            "maxCombo": 5,
             "perfect": 0,
-            "happiness": 1,
+            "happiness": 0,
             "photos": [
               "level_02_park_photo_1",
               "level_02_park_photo_2",
               "level_02_park_photo_3"
             ],
-            "elapsed": 3766.6666666666547,
+            "elapsed": 3749.999999999988,
             "paused": false,
             "challenge": null
           },
           "events": [
             {
-              "runId": "run-mu76e7l1",
+              "runId": "run-mu7rol4r",
               "type": "photo_challenge_success",
-              "t": 4900,
+              "t": 5233,
               "challengeId": "challenge-2",
               "photoId": "level_02_park_photo_2",
-              "timeMs": 4750
+              "timeMs": 5083
             },
             {
-              "runId": "run-mu76e7l1",
+              "runId": "run-mu7rol4r",
               "type": "photo_challenge_start",
               "t": 150,
               "challengeId": "challenge-3",
               "photoId": "level_02_park_photo_3"
             },
             {
-              "runId": "run-mu76e7l1",
+              "runId": "run-mu7rol4r",
               "type": "photo_challenge_success",
-              "t": 3767,
+              "t": 3750,
               "challengeId": "challenge-3",
               "photoId": "level_02_park_photo_3",
-              "timeMs": 3617
+              "timeMs": 3600
             }
           ]
         }
@@ -1793,7 +1793,7 @@
         "screen": "game",
         "level": "level_02_park",
         "character": "yier",
-        "x": 7852.66666666661,
+        "x": 7866.833333333277,
         "y": 510,
         "vx": 0,
         "vy": 0,
@@ -1810,7 +1810,7 @@
           "level_02_park_photo_2",
           "level_02_park_photo_3"
         ],
-        "elapsed": 3783.333333333321,
+        "elapsed": 3766.6666666666547,
         "paused": false,
         "challenge": null
       },
@@ -1826,8 +1826,8 @@
         "screen": "game",
         "level": "level_03_starlight",
         "character": "yier",
-        "x": 1372,
-        "y": 544,
+        "x": 2532,
+        "y": 560,
         "vx": 0,
         "vy": 0,
         "grounded": true,
@@ -1862,9 +1862,9 @@
             "done": 2,
             "total": 4
           },
-          "x": 1552.166666666663,
+          "x": 2714.006666666665,
           "y": 516,
-          "targetX": 1550,
+          "targetX": 2710,
           "targetY": 516,
           "perfect": 0
         },
@@ -1876,9 +1876,9 @@
             "done": 3,
             "total": 4
           },
-          "x": 1724.6666666666597,
+          "x": 2884.206666666663,
           "y": 476,
-          "targetX": 1720,
+          "targetX": 2880,
           "targetY": 476,
           "perfect": 0
         },
@@ -1890,9 +1890,9 @@
             "done": 4,
             "total": 4
           },
-          "x": 1885.6666666666565,
+          "x": 3046.126666666661,
           "y": 444,
-          "targetX": 1890,
+          "targetX": 3050,
           "targetY": 444,
           "perfect": 0
         },
@@ -1904,9 +1904,9 @@
             "done": 0,
             "total": 0
           },
-          "x": 2065.833333333319,
+          "x": 3228.4399999999996,
           "y": 464,
-          "targetX": 2066,
+          "targetX": 3226,
           "targetY": 464,
           "perfect": 0
         }
@@ -1915,7 +1915,7 @@
         "screen": "game",
         "level": "level_03_starlight",
         "character": "yier",
-        "x": 2054.3333333333194,
+        "x": 3228.4399999999996,
         "y": 464,
         "vx": 0,
         "vy": 0,
@@ -1932,7 +1932,7 @@
           "level_03_starlight_photo_2",
           "level_03_starlight_photo_3"
         ],
-        "elapsed": 5033.333333333336,
+        "elapsed": 5483.333333333344,
         "paused": false,
         "challenge": null
       },
@@ -1948,8 +1948,8 @@
         "screen": "game",
         "level": "level_03_starlight",
         "character": "yier",
-        "x": 4828,
-        "y": 544,
+        "x": 4836,
+        "y": 560,
         "vx": 0,
         "vy": 0,
         "grounded": true,
@@ -1984,9 +1984,9 @@
             "done": 1,
             "total": 5
           },
-          "x": 4923.833333333326,
+          "x": 4939.499999999992,
           "y": 544,
-          "targetX": 4928,
+          "targetX": 4936,
           "targetY": 544,
           "perfect": 1
         },
@@ -1998,9 +1998,9 @@
             "done": 2,
             "total": 5
           },
-          "x": 5065.666666666648,
+          "x": 5073.666666666648,
           "y": 500,
-          "targetX": 5063,
+          "targetX": 5071,
           "targetY": 500,
           "perfect": 2
         },
@@ -2012,9 +2012,9 @@
             "done": 3,
             "total": 5
           },
-          "x": 5199.833333333304,
+          "x": 5207.833333333304,
           "y": 500,
-          "targetX": 5198,
+          "targetX": 5206,
           "targetY": 500,
           "perfect": 3
         },
@@ -2026,9 +2026,9 @@
             "done": 4,
             "total": 5
           },
-          "x": 5333.99999999996,
+          "x": 5341.99999999996,
           "y": 452,
-          "targetX": 5333,
+          "targetX": 5341,
           "targetY": 452,
           "perfect": 4
         },
@@ -2040,9 +2040,9 @@
             "done": 5,
             "total": 5
           },
-          "x": 5464.333333333283,
+          "x": 5472.333333333283,
           "y": 480,
-          "targetX": 5468,
+          "targetX": 5476,
           "targetY": 480,
           "perfect": 5
         },
@@ -2054,9 +2054,9 @@
             "done": 0,
             "total": 0
           },
-          "x": 5598.499999999939,
+          "x": 5606.499999999939,
           "y": 504,
-          "targetX": 5596,
+          "targetX": 5604,
           "targetY": 504,
           "perfect": 5
         }
@@ -2065,7 +2065,7 @@
         "screen": "game",
         "level": "level_03_starlight",
         "character": "yier",
-        "x": 5598.499999999939,
+        "x": 5606.499999999939,
         "y": 504,
         "vx": 0,
         "vy": 0,
@@ -2082,7 +2082,7 @@
           "level_03_starlight_photo_2",
           "level_03_starlight_photo_3"
         ],
-        "elapsed": 7050.000000000039,
+        "elapsed": 7033.333333333372,
         "paused": false,
         "challenge": null
       },
@@ -2098,8 +2098,8 @@
         "screen": "game",
         "level": "level_03_starlight",
         "character": "yier",
-        "x": 7132,
-        "y": 544,
+        "x": 7140,
+        "y": 560,
         "vx": 0,
         "vy": 0,
         "grounded": true,
@@ -2134,9 +2134,9 @@
             "done": 2,
             "total": 3
           },
-          "x": 7358.166666666649,
+          "x": 7362.333333333316,
           "y": 504,
-          "targetX": 7357,
+          "targetX": 7365,
           "targetY": 504,
           "perfect": 0
         },
@@ -2148,9 +2148,9 @@
             "done": 3,
             "total": 3
           },
-          "x": 7584.333333333298,
+          "x": 7592.333333333298,
           "y": 464,
-          "targetX": 7580,
+          "targetX": 7588,
           "targetY": 464,
           "perfect": 0
         },
@@ -2162,9 +2162,9 @@
             "done": 0,
             "total": 0
           },
-          "x": 7798.999999999947,
+          "x": 7806.999999999947,
           "y": 496,
-          "targetX": 7802,
+          "targetX": 7810,
           "targetY": 496,
           "perfect": 0
         }
@@ -2173,7 +2173,7 @@
         "screen": "game",
         "level": "level_03_starlight",
         "character": "yier",
-        "x": 7810.499999999946,
+        "x": 7818.499999999946,
         "y": 496,
         "vx": 0,
         "vy": 0,
@@ -2190,7 +2190,7 @@
           "level_03_starlight_photo_2",
           "level_03_starlight_photo_3"
         ],
-        "elapsed": 3999.999999999986,
+        "elapsed": 3916.6666666666533,
         "paused": false,
         "challenge": null
       },

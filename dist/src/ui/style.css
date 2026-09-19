@@ -82,3 +82,48 @@ body.allow-portrait #rotate-hint{display:none!important}
 @media (max-width: 960px){
   .key-hint{display:none}
 }
+/* V3.0.1: design mockups are reference-only. Runtime visuals are rebuilt from project art. */
+.title-hero-card{isolation:isolate;background:#f6dfc7}
+.title-hero-card .hero-scene-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;filter:saturate(1.06) contrast(1.02)}
+.title-hero-card .hero-night-wash{position:absolute;inset:0;z-index:1;background:linear-gradient(100deg,rgba(255,238,208,.05),rgba(83,99,135,.28));mix-blend-mode:multiply;pointer-events:none}
+.title-hero-card .hero-pair{position:absolute;z-index:3;right:14px;bottom:2px;width:76%;height:76%;object-fit:contain!important;filter:drop-shadow(0 12px 14px rgba(83,60,42,.18))}
+.title-hero-card .hero-lights{position:absolute;z-index:2;left:22px;top:22px;color:#fff0bd;font-size:20px;letter-spacing:8px;text-shadow:0 0 12px #ffd98c}
+.title-hero-card .hero-sticker{z-index:5}
+.route-triptych{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:4px!important;padding:5px!important;background:#fff8eb!important}
+.route-triptych span{position:relative;overflow:hidden;border-radius:13px;min-width:0}
+.route-triptych img{width:100%!important;height:100%!important;object-fit:cover!important;display:block;filter:saturate(.98)}
+.route-triptych b{position:absolute;left:7px;bottom:6px;display:grid;place-items:center;width:25px;height:25px;border-radius:50%;background:rgba(255,249,236,.88);font-size:10px;color:#8e725c;box-shadow:0 2px 8px #69543c20}
+.album-collage{display:grid!important;grid-template-columns:1.2fr 1fr 1fr;gap:4px!important;padding:5px!important;background:#fff8eb!important}
+.album-collage img{width:100%!important;height:100%!important;min-width:0;object-fit:cover!important;border-radius:12px}
+/* Keep V3 route cards within the 540px playfield. */
+.route-preview{width:220px;height:84px}
+.v3-levels{gap:16px;margin-top:16px}
+.v3-levels .route-card{height:270px}
+.v3-levels .illustration.cover{height:116px}
+.v3-levels .body{padding:11px 15px 12px}
+.v3-levels .route-title-row h2{font-size:20px;margin:0 0 2px}
+.v3-levels .subline{font-size:11px;margin:0 0 7px}
+.v3-levels .record-line{font-size:11px;margin-top:5px}
+.v3-levels .mini-badges{margin-top:8px;font-size:10px}
+/* Album composition rebuilt from real project postcards; keep it inside 540px. */
+.album-head{margin-top:16px;height:76px;align-items:center}
+.album-head .screen-title{font-size:29px}
+.album-head .screen-sub{margin-top:5px;font-size:11px;max-width:580px}
+.album-hero{width:190px;height:76px;border-radius:16px}
+.album-tabs{margin-top:8px}
+.album-tabs button{padding:6px 12px}
+.album-layout{grid-template-columns:185px 1fr;gap:12px;margin-top:10px}
+.album-side{gap:8px}
+.album-side-card{padding:8px;border-radius:14px}
+.album-side-card img{height:74px;margin-bottom:6px}
+.album-side-card h3{font-size:15px;margin-bottom:2px}
+.album-side-card p{font-size:10px;line-height:1.35;margin-bottom:4px}
+.album-side-card b{font-size:10px}
+.album-side-note{font-size:10px;line-height:1.45;padding:8px;border-radius:12px}
+.v3-photo-grid{gap:12px}
+.v3-photo-grid .photo-card{height:212px;padding:8px 8px 10px}
+.v3-photo-grid .photo-card img{height:105px}
+.v3-photo-grid .photo-card .photo-lock{top:48px;font-size:11px}
+.v3-photo-grid .photo-card h3{font-size:14px;margin:7px 4px 4px}
+.v3-photo-grid .photo-card p{font-size:10px;line-height:1.45;margin:0 4px}
+.v3-photo-grid .photo-card .photo-number{font-size:18px;right:10px;bottom:6px}

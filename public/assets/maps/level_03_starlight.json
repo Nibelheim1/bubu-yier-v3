@@ -6223,7 +6223,12 @@
             {
               "name": "entryY",
               "type": "int",
-              "value": 586
+              "value": 560
+            },
+            {
+              "name": "entryTolerance",
+              "type": "int",
+              "value": 24
             },
             {
               "name": "finishX",
@@ -6311,7 +6316,12 @@
             {
               "name": "entryY",
               "type": "int",
-              "value": 586
+              "value": 560
+            },
+            {
+              "name": "entryTolerance",
+              "type": "int",
+              "value": 24
             },
             {
               "name": "finishX",
@@ -6399,7 +6409,12 @@
             {
               "name": "entryY",
               "type": "int",
-              "value": 586
+              "value": 560
+            },
+            {
+              "name": "entryTolerance",
+              "type": "int",
+              "value": 24
             },
             {
               "name": "finishX",

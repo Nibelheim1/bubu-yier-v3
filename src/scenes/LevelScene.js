@@ -37,8 +37,10 @@ export class LevelScene extends Phaser.Scene {
     camera.setBounds(cb.x,cb.y,cb.width,cb.height);camera.startFollow(this.actor,false,cp.lerpX,cp.lerpY);camera.setFollowOffset(-cp.lookAhead,70);
     camera.setScroll(0,Math.max(0,Math.min(228,spawn.y-367)));this.backdrop.update(camera);
     this.drawGoal();this.ui.hud(this);this.toast(this.character.id==='bubu'?'← → 移动，空格跳跃。落在金色中心线，会有小惊喜。':'← → 移动，空格跳跃。在空中松开再按，还能多跳一次。',4200);
-    const releaseOutside=()=>this.app.input.releaseAll();this.input.on('pointerupoutside',releaseOutside);
-    this.events.once('shutdown',()=>{this.app.input.enabled=false;this.app.input.releaseAll();this.input.off('pointerupoutside',releaseOutside);this.effects.destroy();this.challenge.cancel();this.ui.closeModal();this.telemetry.clock=()=>0;});
+    // DOM controls already release each pointer independently. Do not bind Phaser's
+    // pointerupoutside to releaseAll(): on real multi-touch a jump finger can otherwise
+    // cancel the still-held left/right finger.
+    this.events.once('shutdown',()=>{this.app.input.enabled=false;this.app.input.releaseAll();this.effects.destroy();this.challenge.cancel();this.ui.closeModal();this.telemetry.clock=()=>0;});
   }
   drawGoal(){
     const x=this.goalObject.x+65,y=this.goalObject.y+this.goalObject.height,night=this.level.theme==='starlight';

@@ -3710,6 +3710,79 @@
           ]
         },
         {
+          "id": 48,
+          "name": "challenge-2-horse-2",
+          "type": "platforms",
+          "x": 5223,
+          "y": 520,
+          "width": 210,
+          "height": 20,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "kind",
+              "type": "string",
+              "value": "horse"
+            },
+            {
+              "name": "oneWay",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "name": "perfectEnabled",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "name": "challengeId",
+              "type": "string",
+              "value": "challenge-2"
+            },
+            {
+              "name": "moving",
+              "type": "bool",
+              "value": false
+            },
+            {
+              "name": "axis",
+              "type": "string",
+              "value": "vertical"
+            },
+            {
+              "name": "distance",
+              "type": "int",
+              "value": 0
+            },
+            {
+              "name": "speed",
+              "type": "int",
+              "value": 22
+            },
+            {
+              "name": "pingPong",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "name": "phase",
+              "type": "float",
+              "value": 0.6666666666666666
+            },
+            {
+              "name": "requirePerfect",
+              "type": "bool",
+              "value": false
+            },
+            {
+              "name": "widthRatioOverride",
+              "type": "float",
+              "value": 0.68
+            }
+          ]
+        },
+        {
           "id": 49,
           "name": "challenge-2-finish",
           "type": "platforms",
@@ -4879,7 +4952,7 @@
             {
               "name": "impulse",
               "type": "int",
-              "value": -600
+              "value": -650
             },
             {
               "name": "kind",
@@ -4892,8 +4965,8 @@
           "id": 58,
           "name": "challenge-3-balloon-0",
           "type": "springs",
-          "x": 7277,
-          "y": 378,
+          "x": 7287,
+          "y": 402,
           "width": 56,
           "height": 56,
           "rotation": 0,
@@ -4946,7 +5019,7 @@
           "name": "challenge-3-balloon-1",
           "type": "springs",
           "x": 7472,
-          "y": 354,
+          "y": 382,
           "width": 56,
           "height": 56,
           "rotation": 0,
@@ -4998,8 +5071,8 @@
           "id": 60,
           "name": "challenge-3-balloon-2",
           "type": "springs",
-          "x": 7677,
-          "y": 386,
+          "x": 7657,
+          "y": 402,
           "width": 56,
           "height": 56,
           "rotation": 0,
@@ -5176,9 +5249,9 @@
           "id": 46,
           "name": "challenge-2-horse-0",
           "type": "movingPlatforms",
-          "x": 4950,
-          "y": 524,
-          "width": 132,
+          "x": 4874,
+          "y": 530,
+          "width": 160,
           "height": 20,
           "rotation": 0,
           "visible": true,
@@ -5216,12 +5289,12 @@
             {
               "name": "distance",
               "type": "int",
-              "value": 42
+              "value": 22
             },
             {
               "name": "speed",
               "type": "int",
-              "value": 30
+              "value": 22
             },
             {
               "name": "pingPong",
@@ -5244,9 +5317,9 @@
           "id": 47,
           "name": "challenge-2-horse-1",
           "type": "movingPlatforms",
-          "x": 5128,
-          "y": 484,
-          "width": 132,
+          "x": 5062,
+          "y": 502,
+          "width": 168,
           "height": 20,
           "rotation": 0,
           "visible": true,
@@ -5284,12 +5357,12 @@
             {
               "name": "distance",
               "type": "int",
-              "value": 42
+              "value": 22
             },
             {
               "name": "speed",
               "type": "int",
-              "value": 30
+              "value": 22
             },
             {
               "name": "pingPong",
@@ -5305,74 +5378,6 @@
               "name": "requirePerfect",
               "type": "bool",
               "value": false
-            }
-          ]
-        },
-        {
-          "id": 48,
-          "name": "challenge-2-horse-2",
-          "type": "movingPlatforms",
-          "x": 5306,
-          "y": 508,
-          "width": 132,
-          "height": 20,
-          "rotation": 0,
-          "visible": true,
-          "properties": [
-            {
-              "name": "kind",
-              "type": "string",
-              "value": "horse"
-            },
-            {
-              "name": "oneWay",
-              "type": "bool",
-              "value": true
-            },
-            {
-              "name": "perfectEnabled",
-              "type": "bool",
-              "value": true
-            },
-            {
-              "name": "challengeId",
-              "type": "string",
-              "value": "challenge-2"
-            },
-            {
-              "name": "moving",
-              "type": "bool",
-              "value": true
-            },
-            {
-              "name": "axis",
-              "type": "string",
-              "value": "vertical"
-            },
-            {
-              "name": "distance",
-              "type": "int",
-              "value": 42
-            },
-            {
-              "name": "speed",
-              "type": "int",
-              "value": 30
-            },
-            {
-              "name": "pingPong",
-              "type": "bool",
-              "value": true
-            },
-            {
-              "name": "phase",
-              "type": "float",
-              "value": 0.6666666666666666
-            },
-            {
-              "name": "requirePerfect",
-              "type": "bool",
-              "value": true
             }
           ]
         },
@@ -5703,67 +5708,11 @@
       "objects": [
         {
           "id": 97,
-          "name": "perfect-challenge-2-horse-0",
-          "type": "perfectZones",
-          "x": 4950,
-          "y": 524,
-          "width": 132,
-          "height": 12,
-          "rotation": 0,
-          "visible": true,
-          "properties": [
-            {
-              "name": "zoneId",
-              "type": "string",
-              "value": "perfect-challenge-2-horse-0"
-            },
-            {
-              "name": "platformId",
-              "type": "string",
-              "value": "challenge-2-horse-0"
-            },
-            {
-              "name": "comboValue",
-              "type": "int",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "id": 98,
-          "name": "perfect-challenge-2-horse-1",
-          "type": "perfectZones",
-          "x": 5128,
-          "y": 484,
-          "width": 132,
-          "height": 12,
-          "rotation": 0,
-          "visible": true,
-          "properties": [
-            {
-              "name": "zoneId",
-              "type": "string",
-              "value": "perfect-challenge-2-horse-1"
-            },
-            {
-              "name": "platformId",
-              "type": "string",
-              "value": "challenge-2-horse-1"
-            },
-            {
-              "name": "comboValue",
-              "type": "int",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "id": 99,
           "name": "perfect-challenge-2-horse-2",
           "type": "perfectZones",
-          "x": 5306,
-          "y": 508,
-          "width": 132,
+          "x": 5223,
+          "y": 520,
+          "width": 210,
           "height": 12,
           "rotation": 0,
           "visible": true,
@@ -5786,7 +5735,7 @@
           ]
         },
         {
-          "id": 100,
+          "id": 98,
           "name": "perfect-reward-0",
           "type": "perfectZones",
           "x": 382,
@@ -5814,7 +5763,7 @@
           ]
         },
         {
-          "id": 101,
+          "id": 99,
           "name": "perfect-reward-2",
           "type": "perfectZones",
           "x": 2686,
@@ -5842,7 +5791,7 @@
           ]
         },
         {
-          "id": 102,
+          "id": 100,
           "name": "perfect-reward-3",
           "type": "perfectZones",
           "x": 3838,
@@ -5870,7 +5819,7 @@
           ]
         },
         {
-          "id": 103,
+          "id": 101,
           "name": "perfect-reward-5",
           "type": "perfectZones",
           "x": 6142,
@@ -5898,7 +5847,7 @@
           ]
         },
         {
-          "id": 104,
+          "id": 102,
           "name": "perfect-reward-7",
           "type": "perfectZones",
           "x": 8446,
@@ -5917,6 +5866,62 @@
               "name": "platformId",
               "type": "string",
               "value": "reward-7"
+            },
+            {
+              "name": "comboValue",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 103,
+          "name": "perfect-challenge-2-horse-0",
+          "type": "perfectZones",
+          "x": 4874,
+          "y": 530,
+          "width": 160,
+          "height": 12,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "zoneId",
+              "type": "string",
+              "value": "perfect-challenge-2-horse-0"
+            },
+            {
+              "name": "platformId",
+              "type": "string",
+              "value": "challenge-2-horse-0"
+            },
+            {
+              "name": "comboValue",
+              "type": "int",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "id": 104,
+          "name": "perfect-challenge-2-horse-1",
+          "type": "perfectZones",
+          "x": 5062,
+          "y": 502,
+          "width": 168,
+          "height": 12,
+          "rotation": 0,
+          "visible": true,
+          "properties": [
+            {
+              "name": "zoneId",
+              "type": "string",
+              "value": "perfect-challenge-2-horse-1"
+            },
+            {
+              "name": "platformId",
+              "type": "string",
+              "value": "challenge-2-horse-1"
             },
             {
               "name": "comboValue",
@@ -6035,7 +6040,12 @@
             {
               "name": "entryY",
               "type": "int",
-              "value": 594
+              "value": 568
+            },
+            {
+              "name": "entryTolerance",
+              "type": "int",
+              "value": 24
             },
             {
               "name": "finishX",
@@ -6123,7 +6133,12 @@
             {
               "name": "entryY",
               "type": "int",
-              "value": 594
+              "value": 568
+            },
+            {
+              "name": "entryTolerance",
+              "type": "int",
+              "value": 24
             },
             {
               "name": "finishX",
@@ -6138,7 +6153,7 @@
             {
               "name": "sequence",
               "type": "string",
-              "value": "[{\"type\":\"landing\",\"id\":\"challenge-2-horse-0\",\"perfect\":false},{\"type\":\"landing\",\"id\":\"challenge-2-horse-1\",\"perfect\":false},{\"type\":\"landing\",\"id\":\"challenge-2-horse-2\",\"perfect\":true}]"
+              "value": "[{\"type\":\"landing\",\"id\":\"challenge-2-horse-0\",\"perfect\":false},{\"type\":\"landing\",\"id\":\"challenge-2-horse-1\",\"perfect\":false},{\"type\":\"landing\",\"id\":\"challenge-2-horse-2\",\"perfect\":false}]"
             },
             {
               "name": "eventCount",
@@ -6211,7 +6226,12 @@
             {
               "name": "entryY",
               "type": "int",
-              "value": 594
+              "value": 568
+            },
+            {
+              "name": "entryTolerance",
+              "type": "int",
+              "value": 24
             },
             {
               "name": "finishX",

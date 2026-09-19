@@ -48,7 +48,7 @@ export class ChallengeManager {
     const s=this.s,b=s.actor.body;
     if(!this.active){
       for(const d of this.defs){if(s.simTime<(this.cooldowns.get(d.challengeId)||0))continue;
-        if(contains(b,d.rect)&&b.bottom<=d.entryY+7){this.start(d);break;}}
+        if(contains(b,d.rect)&&b.bottom<=d.entryY+(d.entryTolerance??24)){this.start(d);break;}}
       return;
     }
     const a=this.active,d=a.def;a.elapsed+=dt;

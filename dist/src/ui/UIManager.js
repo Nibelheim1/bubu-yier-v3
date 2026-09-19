@@ -6,22 +6,14 @@ const brand=()=>'<div class="brand"><b>♥</b> BUBU & YIER <span> / </span> THRE
 
 export class UIManager {
   constructor(app){
-    this.app=app;this.root=document.getElementById('ui');this.thumbs={};this.activeTab=0;this.previousCombo=-1;this.toastRemaining=0;
+    this.app=app;this.root=document.getElementById('ui');this.thumbs={};this.scenes={};this.activeTab=0;this.previousCombo=-1;this.toastRemaining=0;
     this.iconHappy=makeIcon('happy').toDataURL();this.iconCamera=makeIcon('camera').toDataURL();
-    this.mockups={
-      title:'./assets/mockups/title-v3.png',
-      route:'./assets/mockups/route-v3.png',
-      album:'./assets/mockups/album-v3.png',
-      level_01_commute:'./assets/mockups/cover-commute-v3.png',
-      level_02_park:'./assets/mockups/cover-park-v3.png',
-      level_03_starlight:'./assets/mockups/cover-starlight-v3.png'
-    };
   }
-  prepareArt(){for(const l of LEVELS){const chars=['bubu','yier'].map(id=>this.app.game.textures.get(`${id}-idle`).getSourceImage());this.thumbs[l.id]=postcardCanvas(l.theme,chars).toDataURL('image/jpeg',.85);}}
+  prepareArt(){for(const l of LEVELS){const chars=['bubu','yier'].map(id=>this.app.game.textures.get(`${id}-idle`).getSourceImage());this.scenes[l.id]=postcardCanvas(l.theme,[]).toDataURL('image/jpeg',.9);this.thumbs[l.id]=postcardCanvas(l.theme,chars).toDataURL('image/jpeg',.9);}}
   set(html){this.app.input.releaseAll();this.root.innerHTML=html;}
   on(selector,fn){this.root.querySelector(selector)?.addEventListener('click',fn);}
   buttonEvents(){this.on('[data-settings]',()=>this.settings());this.on('[data-back]',()=>this.app.open('title'));}
-  preview(id){return this.mockups[id]||this.thumbs[id];}
+  preview(id){return this.thumbs[id];}
 
   title(){const a=this.app;
     this.set(`<section class="screen title-screen v3-screen"><header class="topnav">${brand()}<button class="quiet-btn" data-settings>声音与设置 ···</button></header>
@@ -34,9 +26,9 @@ export class UIManager {
           <div class="title-features"><span>城市节奏</span><span>乐园连跳</span><span>星桥晚风</span><span>照片挑战更清晰</span></div>
           <div class="title-small">把去见你的路，走得更漂亮。</div>
         </div>
-        <div class="title-hero-card"><img src="${this.mockups.title}" alt="V3封面示意图"><div class="hero-sticker"><strong>${String(a.save.photoCount).padStart(2,'0')}</strong><span>/ 09 回忆</span></div></div>
+        <div class="title-hero-card"><img class="hero-scene-bg" src="${this.scenes[LEVELS[0].id]}" alt="晚霞城市"><div class="hero-night-wash"></div><img class="hero-pair" src="./assets/characters/reunion.png" alt="布布和一二"><div class="hero-lights">✦　✧　♥</div><div class="hero-sticker"><strong>${String(a.save.photoCount).padStart(2,'0')}</strong><span>/ 09 回忆</span></div></div>
       </div>
-      <footer class="page-foot"><span>建议横屏体验；竖屏也可以继续进入。</span><div><button id="change-role-title" class="quiet-btn">当前伙伴：${CHARACTERS[a.save.data.selectedCharacter].name}</button><span>V3.0</span></div></footer></section>`);
+      <footer class="page-foot"><span>建议横屏体验；竖屏也可以继续进入。</span><div><button id="change-role-title" class="quiet-btn">当前伙伴：${CHARACTERS[a.save.data.selectedCharacter].name}</button><span>V3.0.1</span></div></footer></section>`);
     this.on('#begin',()=>a.open('characters'));this.on('#title-album',()=>a.open('album'));this.on('#route-map',()=>a.open('levels'));this.on('#change-role-title',()=>a.open('characters'));this.buttonEvents();
   }
 
@@ -52,7 +44,7 @@ export class UIManager {
 
   levels(){const a=this.app;
     this.set(`<section class="screen route-screen v3-screen"><header class="topnav">${brand()}<div><button class="quiet-btn" id="change-role">${CHARACTERS[a.save.data.selectedCharacter].name} · 换个伙伴</button><button class="quiet-btn" data-back>← 封面</button></div></header>
-      <div class="page-head route-head"><div><h1 class="screen-title">去见你的小幸福路线图</h1><div class="screen-sub">每一关都有安全主路、高处奖励路和摄影小路；这一次不再是同一条走廊换皮。</div></div><div class="route-preview"><img src="${this.mockups.route}" alt="路线图示意图"></div></div>
+      <div class="page-head route-head"><div><h1 class="screen-title">去见你的小幸福路线图</h1><div class="screen-sub">每一关都有安全主路、高处奖励路和摄影小路；这一次不再是同一条走廊换皮。</div></div><div class="route-preview route-triptych">${LEVELS.map(l=>`<span><img src="${this.scenes[l.id]}" alt="${l.chapter}"><b>0${l.order}</b></span>`).join('')}</div></div>
       <div class="level-grid v3-levels">${LEVELS.map(l=>{const r=a.save.data.levels[l.id],locked=l.order>a.save.data.unlockedLevel&&!a.debug;return `<button class="level-card route-card" data-level="${l.id}" ${locked?'disabled':''}><div class="illustration cover"><img src="${this.preview(l.id)}" alt="${l.title}"><span class="number">0${l.order}</span>${locked?'<span class="lock">先走完前一段旅程</span>':''}</div><div class="body"><div class="route-title-row"><div><h2>${l.title}</h2><p class="subline">${l.subtitle}</p></div><span class="chip">${l.chapter}</span></div><div class="record-line"><span>最高小幸福</span><strong>${r.best.happiness} / ${l.totalCollectibles}</strong></div><div class="record-line"><span>照片 ${r.photos.length} / ${l.totalPhotos}</span><strong>最佳连击 ×${r.best.combo}</strong></div><div class="mini-badges">${Object.entries(BADGES).map(([k,v])=>`<span class="${r.badges[k]?'earned':''}">${r.badges[k]?'✓ ':''}${v}</span>`).join('')}</div></div></button>`;}).join('')}</div>
       <footer class="page-foot"><span>相册 ${a.save.photoCount} / 9 · 缺的照片通常藏在分岔出的摄影小路上。</span><div><button class="quiet-btn" id="open-album">幸福相册 →</button><span>${a.debug?'开发调试模式':'单人本地离线存档'}</span></div></footer></section>`);
     for(const e of this.root.querySelectorAll('[data-level]'))e.onclick=()=>a.play(e.dataset.level);
@@ -61,7 +53,7 @@ export class UIManager {
 
   album(tab=this.activeTab){this.activeTab=tab;const a=this.app,l=LEVELS[tab],photos=PHOTOS.filter(p=>p.levelId===l.id),complete=a.save.data.levels[l.id].photos.length===l.totalPhotos;
     this.set(`<section class="screen album-screen v3-screen"><header class="topnav">${brand()}<button class="quiet-btn" data-back>← 回到封面</button></header>
-      <div class="page-head album-head"><div><h1 class="screen-title">我们的小幸福相册</h1><div class="screen-sub">照片不在主线终点，而在离主路不远的摄影小路里。看到发光相机，就去试试看。</div></div><div class="album-hero"><img src="${this.mockups.album}" alt="相册示意图"></div></div>
+      <div class="page-head album-head"><div><h1 class="screen-title">我们的小幸福相册</h1><div class="screen-sub">照片不在主线终点，而在离主路不远的摄影小路里。看到发光相机，就去试试看。</div></div><div class="album-hero album-collage">${LEVELS.map(l=>`<img src="${this.thumbs[l.id]}" alt="${l.chapter}">`).join('')}</div></div>
       <div class="album-tabs">${LEVELS.map((lv,i)=>`<button data-tab="${i}" class="${tab===i?'active':''}">0${lv.order} / ${lv.chapter}</button>`).join('')}</div>
       <div class="album-layout"><aside class="album-side"><div class="album-side-card"><img src="${this.preview(l.id)}" alt="${l.title}"><div><h3>${l.title}</h3><p>${l.subtitle}</p><b>${a.save.data.levels[l.id].photos.length} / ${l.totalPhotos} 张照片</b></div></div><div class="album-side-note">${complete?'本章三张齐全，纪念卡已解锁。':'提示：挑战失败不扣心，可以立即再试；若想跳过，向下回主路继续走。'}</div></aside>
       <div class="photo-grid v3-photo-grid">${photos.map(p=>{const found=a.save.hasPhoto(p.id);return `<article class="photo-card ${found?'':'locked'}"><img src="${found?(a.save.thumbnail(p.id)||this.preview(l.id)):this.preview(l.id)}" alt="${found?p.name:'未收集的照片'}">${found?'':'<div class="photo-lock">一个还没遇见的小瞬间</div>'}<h3>${p.name}</h3><p>${found?p.caption:p.hint}</p><span class="photo-number">0${p.index}</span></article>`;}).join('')}</div></div>

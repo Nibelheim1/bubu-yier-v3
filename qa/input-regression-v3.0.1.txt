@@ -1,0 +1,16 @@
+two fingers, release outside, pointercancel True {'both': {'direction': 1, 'jump': True, 'pointers': 2}, 'one': {'direction': 0, 'jump': True, 'pointers': 1}, 'none': {'direction': 0, 'jump': False, 'queued': False, 'pointers': 0}}
+hold right + press jump keeps horizontal movement in takeoff and air True {'run': {'dir': 1, 'vx': 230}, 'takeoff': {'dir': 1, 'vx': 230, 'vy': -476.66666666666663, 'pointers': 2}, 'air': {'dir': 1, 'vx': 230, 'vy': -72.50000000000004, 'pointers': 1}, 'end': {'dir': 0, 'pointers': 0}}
+keyboard right + jump also preserves horizontal velocity True {'takeoff': {'dir': 1, 'vx': 230, 'vy': -476.66666666666663}, 'air': {'dir': 1, 'vx': 230, 'vy': -72.50000000000004}}
+window blur clears all inputs, freezes play, Escape resumes True {'paused': {'paused': True, 't': 0, 'keys': 0, 'queue': False}, 'resumed': True, 'keys': 0}
+one-way ledge passes from below, catches from above True {'min': 560.9583333333333, 'top': 608, 'end': 608, 'headBlocks': 0, 'perfect': 0}
+wind changes gravity in zone and immediately restores on leaving True {'inside': -175, 'outside': 0}
+repeatable main star bridge: first entry, expiry, second entry True {'first': True, 'expired': True, 'retry': True}
+star platform gives standing player 300ms expiry grace True {'grace': {'enabled': True, 'remaining': 249.99999999999727}, 'disabled': True}
+photo timeout and re-entry cost no heart, no level restart True {'first': True, 'failed': 1, 'hearts': 3, 'hits': 0, 'second': True, 'x': 1380, 'entry': 1380, 'time': 14083.33333333318}
+configured two-heart damage does not reset ordinary hit to checkpoint True {'hearts': 1, 'hits': 1, 'combo': 0, 'x': 880, 'vx': -90, 'alpha': 1, 'before': 880}
+one-way landing at 30 simulated updates per second True {'bottom': 544, 'top': 544, 'perfect': 1, 'hearts': 3}
+one-way landing at 20 simulated updates per second True {'bottom': 544, 'top': 544, 'perfect': 1, 'hearts': 3}
+bubu: extra jump allowance is bounded True {'second': {'vy': -225.83333333333334, 'extra': 0}, 'third': {'vy': 42.49999999999997, 'extra': 0}}
+yier: extra jump allowance is bounded True {'second': {'vy': -464.6, 'extra': 1}, 'third': {'vy': -196.26666666666654, 'extra': 1}}
+twelve scene restarts do not accumulate scene input handlers True {'counts': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'keys': 0, 'pointers': 0}
+portrait pause and guidance visibility True {'paused': True, 'guide': 'flex', 'keys': 0}

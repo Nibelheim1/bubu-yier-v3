@@ -23,6 +23,48 @@
       }
     },
     {
+      "case": "hold right + press jump keeps horizontal movement in takeoff and air",
+      "passed": true,
+      "result": {
+        "run": {
+          "dir": 1,
+          "vx": 230
+        },
+        "takeoff": {
+          "dir": 1,
+          "vx": 230,
+          "vy": -476.66666666666663,
+          "pointers": 2
+        },
+        "air": {
+          "dir": 1,
+          "vx": 230,
+          "vy": -72.50000000000004,
+          "pointers": 1
+        },
+        "end": {
+          "dir": 0,
+          "pointers": 0
+        }
+      }
+    },
+    {
+      "case": "keyboard right + jump also preserves horizontal velocity",
+      "passed": true,
+      "result": {
+        "takeoff": {
+          "dir": 1,
+          "vx": 230,
+          "vy": -476.66666666666663
+        },
+        "air": {
+          "dir": 1,
+          "vx": 230,
+          "vy": -72.50000000000004
+        }
+      }
+    },
+    {
       "case": "window blur clears all inputs, freezes play, Escape resumes",
       "passed": true,
       "result": {
@@ -84,8 +126,8 @@
         "hearts": 3,
         "hits": 0,
         "second": true,
-        "x": 1372,
-        "entry": 1372,
+        "x": 1380,
+        "entry": 1380,
         "time": 14083.33333333318
       }
     },
@@ -155,18 +197,18 @@
       "passed": true,
       "result": {
         "counts": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
         "keys": 0,
         "pointers": 0

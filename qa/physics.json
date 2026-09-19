@@ -42,8 +42,8 @@
     {
       "case": "vertical_5s",
       "result": {
-        "maxGap": 1.0833333333332575,
-        "airFrames": 5,
+        "maxGap": 31,
+        "airFrames": 6,
         "state": {
           "screen": "game",
           "level": "level_02_park",

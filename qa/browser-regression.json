@@ -1,0 +1,186 @@
+{
+  "cases": [
+    {
+      "case": "two fingers, release outside, pointercancel",
+      "passed": true,
+      "result": {
+        "both": {
+          "direction": 1,
+          "jump": true,
+          "pointers": 2
+        },
+        "one": {
+          "direction": 0,
+          "jump": true,
+          "pointers": 1
+        },
+        "none": {
+          "direction": 0,
+          "jump": false,
+          "queued": false,
+          "pointers": 0
+        }
+      }
+    },
+    {
+      "case": "window blur clears all inputs, freezes play, Escape resumes",
+      "passed": true,
+      "result": {
+        "paused": {
+          "paused": true,
+          "t": 0,
+          "keys": 0,
+          "queue": false
+        },
+        "resumed": true,
+        "keys": 0
+      }
+    },
+    {
+      "case": "one-way ledge passes from below, catches from above",
+      "passed": true,
+      "result": {
+        "min": 560.9583333333333,
+        "top": 608,
+        "end": 608,
+        "headBlocks": 0,
+        "perfect": 0
+      }
+    },
+    {
+      "case": "wind changes gravity in zone and immediately restores on leaving",
+      "passed": true,
+      "result": {
+        "inside": -175,
+        "outside": 0
+      }
+    },
+    {
+      "case": "repeatable main star bridge: first entry, expiry, second entry",
+      "passed": true,
+      "result": {
+        "first": true,
+        "expired": true,
+        "retry": true
+      }
+    },
+    {
+      "case": "star platform gives standing player 300ms expiry grace",
+      "passed": true,
+      "result": {
+        "grace": {
+          "enabled": true,
+          "remaining": 249.99999999999727
+        },
+        "disabled": true
+      }
+    },
+    {
+      "case": "photo timeout and re-entry cost no heart, no level restart",
+      "passed": true,
+      "result": {
+        "first": true,
+        "failed": 1,
+        "hearts": 3,
+        "hits": 0,
+        "second": true,
+        "x": 1372,
+        "entry": 1372,
+        "time": 14083.33333333318
+      }
+    },
+    {
+      "case": "configured two-heart damage does not reset ordinary hit to checkpoint",
+      "passed": true,
+      "result": {
+        "hearts": 1,
+        "hits": 1,
+        "combo": 0,
+        "x": 880,
+        "vx": -90,
+        "alpha": 1,
+        "before": 880
+      }
+    },
+    {
+      "case": "one-way landing at 30 simulated updates per second",
+      "passed": true,
+      "result": {
+        "bottom": 544,
+        "top": 544,
+        "perfect": 1,
+        "hearts": 3
+      }
+    },
+    {
+      "case": "one-way landing at 20 simulated updates per second",
+      "passed": true,
+      "result": {
+        "bottom": 544,
+        "top": 544,
+        "perfect": 1,
+        "hearts": 3
+      }
+    },
+    {
+      "case": "bubu: extra jump allowance is bounded",
+      "passed": true,
+      "result": {
+        "second": {
+          "vy": -225.83333333333334,
+          "extra": 0
+        },
+        "third": {
+          "vy": 42.49999999999997,
+          "extra": 0
+        }
+      }
+    },
+    {
+      "case": "yier: extra jump allowance is bounded",
+      "passed": true,
+      "result": {
+        "second": {
+          "vy": -464.6,
+          "extra": 1
+        },
+        "third": {
+          "vy": -196.26666666666654,
+          "extra": 1
+        }
+      }
+    },
+    {
+      "case": "twelve scene restarts do not accumulate scene input handlers",
+      "passed": true,
+      "result": {
+        "counts": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "keys": 0,
+        "pointers": 0
+      }
+    },
+    {
+      "case": "portrait pause and guidance visibility",
+      "passed": true,
+      "result": {
+        "paused": true,
+        "guide": "flex",
+        "keys": 0
+      }
+    }
+  ],
+  "errors": []
+}

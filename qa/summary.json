@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "basis": "built dist",
+  "unitTests": {
+    "passed": 30,
+    "failed": 0
+  },
+  "mainRoutes": {
+    "passed": 6,
+    "total": 6
+  },
+  "photoChallenges": {
+    "passed": 18,
+    "total": 18
+  },
+  "runtimeRegressions": {
+    "passed": 14,
+    "total": 14
+  },
+  "physicsChecks": 5,
+  "visualCaptures": 13,
+  "browserPageErrors": 0,
+  "limitations": [
+    "Desktop Chromium only; not real Android/iOS/TapTap WebView",
+    "Local photo-course tests begin with entrance positioning; actual input and physics complete each course",
+    "Main routes use normal spawn and real input simulation, no mid-route teleport",
+    "UI screenshots use explicit saved-record and position fixtures",
+    "Browser route fulfillment loads unchanged local dist bytes except enabling debug; no network and no real-origin storage in this harness",
+    "Save persistence/migration tested separately using storage mocks; production-origin browser persistence still requires deployment check",
+    "No player study, full-collection-route completion proof, long-session mobile performance or platform publishing review"
+  ]
+}

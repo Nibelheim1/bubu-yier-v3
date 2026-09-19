@@ -1,0 +1,2201 @@
+{
+  "challenges": [
+    {
+      "character": "bubu",
+      "level": 1,
+      "photo": 1,
+      "kind": "bus-chain",
+      "success": true,
+      "startState": {
+        "screen": "game",
+        "level": "level_01_commute",
+        "character": "bubu",
+        "x": 1372,
+        "y": 544,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "perfect": 0,
+        "happiness": 0,
+        "photos": [
+          "level_01_commute_photo_1"
+        ],
+        "elapsed": 633.3333333333333,
+        "paused": false,
+        "challenge": {
+          "id": "challenge-1",
+          "progress": {
+            "done": 0,
+            "total": 3
+          }
+        }
+      },
+      "steps": [
+        {
+          "target": "challenge-1-bus-1",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 1,
+            "total": 3
+          },
+          "x": 1543.9666666666633,
+          "y": 516,
+          "targetX": 1547.333333333333,
+          "targetY": 516,
+          "perfect": 0
+        },
+        {
+          "target": "challenge-1-bus-2",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 2,
+            "total": 3
+          },
+          "x": 1713.26666666666,
+          "y": 478.7333333333331,
+          "targetX": 1712,
+          "targetY": 478.7333333333331,
+          "perfect": 0
+        },
+        {
+          "target": "challenge-1-bus-3",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 3,
+            "total": 3
+          },
+          "x": 1904.4999999999895,
+          "y": 468,
+          "targetX": 1905.699999999998,
+          "targetY": 468,
+          "perfect": 0
+        },
+        {
+          "target": "challenge-1-finish",
+          "landed": false,
+          "active": false,
+          "progress": {
+            "done": 0,
+            "total": 0
+          },
+          "x": 2078.5999999999863,
+          "y": 492,
+          "targetX": 2076,
+          "targetY": 492,
+          "perfect": 0
+        }
+      ],
+      "endState": {
+        "screen": "game",
+        "level": "level_01_commute",
+        "character": "bubu",
+        "x": 2078.5999999999863,
+        "y": 492,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 4,
+        "maxCombo": 4,
+        "perfect": 0,
+        "happiness": 1,
+        "photos": [
+          "level_01_commute_photo_1"
+        ],
+        "elapsed": 5033.333333333336,
+        "paused": false,
+        "challenge": null
+      },
+      "retryCount": 0
+    },
+    {
+      "character": "bubu",
+      "level": 1,
+      "photo": 2,
+      "kind": "box-roof",
+      "success": true,
+      "startState": {
+        "screen": "game",
+        "level": "level_01_commute",
+        "character": "bubu",
+        "x": 3676,
+        "y": 544,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "perfect": 0,
+        "happiness": 0,
+        "photos": [
+          "level_01_commute_photo_1",
+          "level_01_commute_photo_2"
+        ],
+        "elapsed": 633.3333333333333,
+        "paused": false,
+        "challenge": {
+          "id": "challenge-2",
+          "progress": {
+            "done": 0,
+            "total": 3
+          }
+        }
+      },
+      "steps": [
+        {
+          "target": "challenge-2-box",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 1,
+            "total": 3
+          },
+          "x": 3878.583333333341,
+          "y": 544,
+          "targetX": 3876.000000000009,
+          "targetY": 544,
+          "perfect": 0
+        },
+        {
+          "target": "challenge-2-awning",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 2,
+            "total": 3
+          },
+          "x": 4014.000000000012,
+          "y": 464,
+          "targetX": 4018,
+          "targetY": 464,
+          "perfect": 1
+        },
+        {
+          "target": "challenge-2-roof",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 3,
+            "total": 3
+          },
+          "x": 4190.333333333344,
+          "y": 408,
+          "targetX": 4188,
+          "targetY": 408,
+          "perfect": 2
+        },
+        {
+          "target": "challenge-2-finish",
+          "landed": false,
+          "active": false,
+          "progress": {
+            "done": 0,
+            "total": 0
+          },
+          "x": 4381.999999999995,
+          "y": 432,
+          "targetX": 4380,
+          "targetY": 432,
+          "perfect": 2
+        }
+      ],
+      "endState": {
+        "screen": "game",
+        "level": "level_01_commute",
+        "character": "bubu",
+        "x": 4381.999999999995,
+        "y": 432,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 4,
+        "maxCombo": 4,
+        "perfect": 2,
+        "happiness": 1,
+        "photos": [
+          "level_01_commute_photo_1",
+          "level_01_commute_photo_2"
+        ],
+        "elapsed": 4833.333333333332,
+        "paused": false,
+        "challenge": null
+      },
+      "retryCount": 0
+    },
+    {
+      "character": "bubu",
+      "level": 1,
+      "photo": 3,
+      "kind": "lamps",
+      "success": true,
+      "startState": {
+        "screen": "game",
+        "level": "level_01_commute",
+        "character": "bubu",
+        "x": 7132,
+        "y": 544,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "perfect": 0,
+        "happiness": 0,
+        "photos": [
+          "level_01_commute_photo_1",
+          "level_01_commute_photo_2",
+          "level_01_commute_photo_3"
+        ],
+        "elapsed": 633.3333333333333,
+        "paused": false,
+        "challenge": {
+          "id": "challenge-3",
+          "progress": {
+            "done": 0,
+            "total": 3
+          }
+        }
+      },
+      "steps": [
+        {
+          "target": "challenge-3-lamp-pad-0",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 1,
+            "total": 3
+          },
+          "x": 7304.499999999986,
+          "y": 511.99999999999994,
+          "targetX": 7302,
+          "targetY": 512,
+          "perfect": 1
+        },
+        {
+          "target": "challenge-3-lamp-pad-1",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 2,
+            "total": 3
+          },
+          "x": 7473.16666666664,
+          "y": 464,
+          "targetX": 7472,
+          "targetY": 464,
+          "perfect": 2
+        },
+        {
+          "target": "challenge-3-lamp-pad-2",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 3,
+            "total": 3
+          },
+          "x": 7645.666666666626,
+          "y": 464,
+          "targetX": 7642,
+          "targetY": 464,
+          "perfect": 3
+        },
+        {
+          "target": "challenge-3-finish",
+          "landed": false,
+          "active": false,
+          "progress": {
+            "done": 0,
+            "total": 0
+          },
+          "x": 7837.333333333278,
+          "y": 496,
+          "targetX": 7836,
+          "targetY": 496,
+          "perfect": 3
+        }
+      ],
+      "endState": {
+        "screen": "game",
+        "level": "level_01_commute",
+        "character": "bubu",
+        "x": 7837.333333333278,
+        "y": 496,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 7,
+        "maxCombo": 7,
+        "perfect": 3,
+        "happiness": 1,
+        "photos": [
+          "level_01_commute_photo_1",
+          "level_01_commute_photo_2",
+          "level_01_commute_photo_3"
+        ],
+        "elapsed": 5083.333333333337,
+        "paused": false,
+        "challenge": null
+      },
+      "retryCount": 0
+    },
+    {
+      "character": "bubu",
+      "level": 2,
+      "photo": 1,
+      "kind": "balloons",
+      "success": true,
+      "startState": {
+        "screen": "game",
+        "level": "level_02_park",
+        "character": "bubu",
+        "x": 1372,
+        "y": 544,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "perfect": 0,
+        "happiness": 0,
+        "photos": [
+          "level_02_park_photo_1"
+        ],
+        "elapsed": 633.3333333333333,
+        "paused": false,
+        "challenge": {
+          "id": "challenge-1",
+          "progress": {
+            "done": 0,
+            "total": 3
+          }
+        }
+      },
+      "steps": [
+        {
+          "kind": "balloons",
+          "frames": 192,
+          "state": {
+            "screen": "game",
+            "level": "level_02_park",
+            "character": "bubu",
+            "x": 2107.9999999999873,
+            "y": 510.00000000000006,
+            "vx": 230,
+            "vy": 0,
+            "grounded": true,
+            "surface": null,
+            "hearts": 3,
+            "damage": 0,
+            "combo": 4,
+            "maxCombo": 4,
+            "perfect": 0,
+            "happiness": 1,
+            "photos": [
+              "level_02_park_photo_1"
+            ],
+            "elapsed": 3849.9999999999873,
+            "paused": false,
+            "challenge": null
+          },
+          "events": [
+            {
+              "runId": "run-mu76e7l1",
+              "type": "photo_challenge_success",
+              "t": 5033,
+              "challengeId": "challenge-3",
+              "photoId": "level_01_commute_photo_3",
+              "timeMs": 4883
+            },
+            {
+              "runId": "run-mu76e7l1",
+              "type": "photo_challenge_start",
+              "t": 150,
+              "challengeId": "challenge-1",
+              "photoId": "level_02_park_photo_1"
+            },
+            {
+              "runId": "run-mu76e7l1",
+              "type": "photo_challenge_success",
+              "t": 3850,
+              "challengeId": "challenge-1",
+              "photoId": "level_02_park_photo_1",
+              "timeMs": 3700
+            }
+          ]
+        }
+      ],
+      "endState": {
+        "screen": "game",
+        "level": "level_02_park",
+        "character": "bubu",
+        "x": 2111.8333333333208,
+        "y": 510,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 4,
+        "maxCombo": 4,
+        "perfect": 0,
+        "happiness": 1,
+        "photos": [
+          "level_02_park_photo_1"
+        ],
+        "elapsed": 3866.666666666654,
+        "paused": false,
+        "challenge": null
+      },
+      "retryCount": 0
+    },
+    {
+      "character": "bubu",
+      "level": 2,
+      "photo": 2,
+      "kind": "carousel",
+      "success": true,
+      "startState": {
+        "screen": "game",
+        "level": "level_02_park",
+        "character": "bubu",
+        "x": 4828,
+        "y": 544,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "perfect": 0,
+        "happiness": 0,
+        "photos": [
+          "level_02_park_photo_1",
+          "level_02_park_photo_2"
+        ],
+        "elapsed": 633.3333333333333,
+        "paused": false,
+        "challenge": {
+          "id": "challenge-2",
+          "progress": {
+            "done": 0,
+            "total": 3
+          }
+        }
+      },
+      "steps": [
+        {
+          "target": "challenge-2-horse-0",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 1,
+            "total": 3
+          },
+          "x": 5000.499999999986,
+          "y": 554.5,
+          "targetX": 4998,
+          "targetY": 554.5,
+          "perfect": 1
+        },
+        {
+          "target": "challenge-2-horse-1",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 2,
+            "total": 3
+          },
+          "x": 5180.666666666639,
+          "y": 513,
+          "targetX": 5176,
+          "targetY": 513,
+          "perfect": 2
+        },
+        {
+          "target": "challenge-2-horse-2",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 3,
+            "total": 3
+          },
+          "x": 5356.999999999958,
+          "y": 515.5,
+          "targetX": 5354,
+          "targetY": 515.5,
+          "perfect": 3
+        },
+        {
+          "target": "challenge-2-finish",
+          "landed": false,
+          "active": false,
+          "progress": {
+            "done": 0,
+            "total": 0
+          },
+          "x": 5533.333333333278,
+          "y": 500,
+          "targetX": 5532,
+          "targetY": 500,
+          "perfect": 3
+        }
+      ],
+      "endState": {
+        "screen": "game",
+        "level": "level_02_park",
+        "character": "bubu",
+        "x": 5533.333333333278,
+        "y": 500,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 4,
+        "maxCombo": 4,
+        "perfect": 3,
+        "happiness": 1,
+        "photos": [
+          "level_02_park_photo_1",
+          "level_02_park_photo_2"
+        ],
+        "elapsed": 5116.666666666671,
+        "paused": false,
+        "challenge": null
+      },
+      "retryCount": 0
+    },
+    {
+      "character": "bubu",
+      "level": 2,
+      "photo": 3,
+      "kind": "air-chain",
+      "success": true,
+      "startState": {
+        "screen": "game",
+        "level": "level_02_park",
+        "character": "bubu",
+        "x": 7132,
+        "y": 544,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "perfect": 0,
+        "happiness": 0,
+        "photos": [
+          "level_02_park_photo_1",
+          "level_02_park_photo_2",
+          "level_02_park_photo_3"
+        ],
+        "elapsed": 633.3333333333333,
+        "paused": false,
+        "challenge": {
+          "id": "challenge-3",
+          "progress": {
+            "done": 0,
+            "total": 5
+          }
+        }
+      },
+      "steps": [
+        {
+          "kind": "air-chain",
+          "frames": 187,
+          "state": {
+            "screen": "game",
+            "level": "level_02_park",
+            "character": "bubu",
+            "x": 7848.833333333277,
+            "y": 510.00000000000006,
+            "vx": 230,
+            "vy": 0,
+            "grounded": true,
+            "surface": null,
+            "hearts": 3,
+            "damage": 0,
+            "combo": 6,
+            "maxCombo": 6,
+            "perfect": 0,
+            "happiness": 1,
+            "photos": [
+              "level_02_park_photo_1",
+              "level_02_park_photo_2",
+              "level_02_park_photo_3"
+            ],
+            "elapsed": 3766.6666666666547,
+            "paused": false,
+            "challenge": null
+          },
+          "events": [
+            {
+              "runId": "run-mu76e7l1",
+              "type": "photo_challenge_success",
+              "t": 5067,
+              "challengeId": "challenge-2",
+              "photoId": "level_02_park_photo_2",
+              "timeMs": 4917
+            },
+            {
+              "runId": "run-mu76e7l1",
+              "type": "photo_challenge_start",
+              "t": 150,
+              "challengeId": "challenge-3",
+              "photoId": "level_02_park_photo_3"
+            },
+            {
+              "runId": "run-mu76e7l1",
+              "type": "photo_challenge_success",
+              "t": 3767,
+              "challengeId": "challenge-3",
+              "photoId": "level_02_park_photo_3",
+              "timeMs": 3617
+            }
+          ]
+        }
+      ],
+      "endState": {
+        "screen": "game",
+        "level": "level_02_park",
+        "character": "bubu",
+        "x": 7852.66666666661,
+        "y": 510,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 6,
+        "maxCombo": 6,
+        "perfect": 0,
+        "happiness": 1,
+        "photos": [
+          "level_02_park_photo_1",
+          "level_02_park_photo_2",
+          "level_02_park_photo_3"
+        ],
+        "elapsed": 3783.333333333321,
+        "paused": false,
+        "challenge": null
+      },
+      "retryCount": 0
+    },
+    {
+      "character": "bubu",
+      "level": 3,
+      "photo": 1,
+      "kind": "fireflies",
+      "success": true,
+      "startState": {
+        "screen": "game",
+        "level": "level_03_starlight",
+        "character": "bubu",
+        "x": 1372,
+        "y": 544,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 1,
+        "maxCombo": 1,
+        "perfect": 0,
+        "happiness": 0,
+        "photos": [
+          "level_03_starlight_photo_1"
+        ],
+        "elapsed": 633.3333333333333,
+        "paused": false,
+        "challenge": {
+          "id": "challenge-1",
+          "progress": {
+            "done": 1,
+            "total": 4
+          }
+        }
+      },
+      "steps": [
+        {
+          "target": "challenge-1-tree-pad-0",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 2,
+            "total": 4
+          },
+          "x": 1552.166666666663,
+          "y": 516,
+          "targetX": 1550,
+          "targetY": 516,
+          "perfect": 0
+        },
+        {
+          "target": "challenge-1-tree-pad-1",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 3,
+            "total": 4
+          },
+          "x": 1720.8333333333264,
+          "y": 476,
+          "targetX": 1720,
+          "targetY": 476,
+          "perfect": 0
+        },
+        {
+          "target": "challenge-1-tree-pad-2",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 4,
+            "total": 4
+          },
+          "x": 1885.6666666666565,
+          "y": 444,
+          "targetX": 1890,
+          "targetY": 444,
+          "perfect": 0
+        },
+        {
+          "target": "challenge-1-tree-pad-3",
+          "landed": false,
+          "active": false,
+          "progress": {
+            "done": 0,
+            "total": 0
+          },
+          "x": 2061.9999999999854,
+          "y": 464,
+          "targetX": 2066,
+          "targetY": 464,
+          "perfect": 0
+        }
+      ],
+      "endState": {
+        "screen": "game",
+        "level": "level_03_starlight",
+        "character": "bubu",
+        "x": 2061.9999999999854,
+        "y": 464,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 5,
+        "maxCombo": 5,
+        "perfect": 0,
+        "happiness": 1,
+        "photos": [
+          "level_03_starlight_photo_1"
+        ],
+        "elapsed": 5066.66666666667,
+        "paused": false,
+        "challenge": null
+      },
+      "retryCount": 0
+    },
+    {
+      "character": "bubu",
+      "level": 3,
+      "photo": 2,
+      "kind": "meteor",
+      "success": true,
+      "startState": {
+        "screen": "game",
+        "level": "level_03_starlight",
+        "character": "bubu",
+        "x": 4828,
+        "y": 544,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "perfect": 0,
+        "happiness": 0,
+        "photos": [
+          "level_03_starlight_photo_1",
+          "level_03_starlight_photo_2"
+        ],
+        "elapsed": 633.3333333333333,
+        "paused": false,
+        "challenge": {
+          "id": "challenge-2",
+          "progress": {
+            "done": 0,
+            "total": 5
+          }
+        }
+      },
+      "steps": [
+        {
+          "target": "challenge-2-meteor-pad-0",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 1,
+            "total": 5
+          },
+          "x": 4923.833333333326,
+          "y": 544,
+          "targetX": 4928,
+          "targetY": 544,
+          "perfect": 1
+        },
+        {
+          "target": "challenge-2-meteor-pad-1",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 2,
+            "total": 5
+          },
+          "x": 5065.666666666648,
+          "y": 500,
+          "targetX": 5063,
+          "targetY": 500,
+          "perfect": 2
+        },
+        {
+          "target": "challenge-2-meteor-pad-2",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 3,
+            "total": 5
+          },
+          "x": 5199.833333333304,
+          "y": 500,
+          "targetX": 5198,
+          "targetY": 500,
+          "perfect": 3
+        },
+        {
+          "target": "challenge-2-meteor-pad-3",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 4,
+            "total": 5
+          },
+          "x": 5333.99999999996,
+          "y": 452,
+          "targetX": 5333,
+          "targetY": 452,
+          "perfect": 4
+        },
+        {
+          "target": "challenge-2-meteor-pad-4",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 5,
+            "total": 5
+          },
+          "x": 5468.166666666616,
+          "y": 480,
+          "targetX": 5468,
+          "targetY": 480,
+          "perfect": 5
+        },
+        {
+          "target": "challenge-2-finish",
+          "landed": false,
+          "active": false,
+          "progress": {
+            "done": 0,
+            "total": 0
+          },
+          "x": 5598.499999999939,
+          "y": 504,
+          "targetX": 5596,
+          "targetY": 504,
+          "perfect": 5
+        }
+      ],
+      "endState": {
+        "screen": "game",
+        "level": "level_03_starlight",
+        "character": "bubu",
+        "x": 5598.499999999939,
+        "y": 504,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 11,
+        "maxCombo": 11,
+        "perfect": 5,
+        "happiness": 1,
+        "photos": [
+          "level_03_starlight_photo_1",
+          "level_03_starlight_photo_2"
+        ],
+        "elapsed": 7083.333333333373,
+        "paused": false,
+        "challenge": null
+      },
+      "retryCount": 0
+    },
+    {
+      "character": "bubu",
+      "level": 3,
+      "photo": 3,
+      "kind": "camp-lamps",
+      "success": true,
+      "startState": {
+        "screen": "game",
+        "level": "level_03_starlight",
+        "character": "bubu",
+        "x": 7132,
+        "y": 544,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 1,
+        "maxCombo": 1,
+        "perfect": 0,
+        "happiness": 0,
+        "photos": [
+          "level_03_starlight_photo_1",
+          "level_03_starlight_photo_2",
+          "level_03_starlight_photo_3"
+        ],
+        "elapsed": 633.3333333333333,
+        "paused": false,
+        "challenge": {
+          "id": "challenge-3",
+          "progress": {
+            "done": 1,
+            "total": 3
+          }
+        }
+      },
+      "steps": [
+        {
+          "target": "challenge-3-star-0",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 2,
+            "total": 3
+          },
+          "x": 7358.166666666649,
+          "y": 504,
+          "targetX": 7357,
+          "targetY": 504,
+          "perfect": 0
+        },
+        {
+          "target": "challenge-3-star-1",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 3,
+            "total": 3
+          },
+          "x": 7580.4999999999645,
+          "y": 464,
+          "targetX": 7580,
+          "targetY": 464,
+          "perfect": 0
+        },
+        {
+          "target": "challenge-3-star-2",
+          "landed": false,
+          "active": false,
+          "progress": {
+            "done": 0,
+            "total": 0
+          },
+          "x": 7802.83333333328,
+          "y": 496,
+          "targetX": 7802,
+          "targetY": 496,
+          "perfect": 0
+        }
+      ],
+      "endState": {
+        "screen": "game",
+        "level": "level_03_starlight",
+        "character": "bubu",
+        "x": 7814.333333333279,
+        "y": 496,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 4,
+        "maxCombo": 4,
+        "perfect": 0,
+        "happiness": 1,
+        "photos": [
+          "level_03_starlight_photo_1",
+          "level_03_starlight_photo_2",
+          "level_03_starlight_photo_3"
+        ],
+        "elapsed": 4066.666666666652,
+        "paused": false,
+        "challenge": null
+      },
+      "retryCount": 0
+    },
+    {
+      "character": "yier",
+      "level": 1,
+      "photo": 1,
+      "kind": "bus-chain",
+      "success": true,
+      "startState": {
+        "screen": "game",
+        "level": "level_01_commute",
+        "character": "yier",
+        "x": 1372,
+        "y": 544,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "perfect": 0,
+        "happiness": 0,
+        "photos": [
+          "level_01_commute_photo_1",
+          "level_01_commute_photo_2",
+          "level_01_commute_photo_3"
+        ],
+        "elapsed": 633.3333333333333,
+        "paused": false,
+        "challenge": {
+          "id": "challenge-1",
+          "progress": {
+            "done": 0,
+            "total": 3
+          }
+        }
+      },
+      "steps": [
+        {
+          "target": "challenge-1-bus-1",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 1,
+            "total": 3
+          },
+          "x": 1547.7999999999965,
+          "y": 516,
+          "targetX": 1547.8666666666663,
+          "targetY": 516,
+          "perfect": 0
+        },
+        {
+          "target": "challenge-1-bus-2",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 2,
+            "total": 3
+          },
+          "x": 1713.7999999999934,
+          "y": 479.11666666666645,
+          "targetX": 1712,
+          "targetY": 479.11666666666645,
+          "perfect": 0
+        },
+        {
+          "target": "challenge-1-bus-3",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 3,
+            "total": 3
+          },
+          "x": 1905.0333333333228,
+          "y": 468,
+          "targetX": 1906.1333333333314,
+          "targetY": 468,
+          "perfect": 0
+        },
+        {
+          "target": "challenge-1-finish",
+          "landed": false,
+          "active": false,
+          "progress": {
+            "done": 0,
+            "total": 0
+          },
+          "x": 2079.133333333319,
+          "y": 492,
+          "targetX": 2076,
+          "targetY": 492,
+          "perfect": 0
+        }
+      ],
+      "endState": {
+        "screen": "game",
+        "level": "level_01_commute",
+        "character": "yier",
+        "x": 2067.6333333333187,
+        "y": 492,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 4,
+        "maxCombo": 4,
+        "perfect": 0,
+        "happiness": 1,
+        "photos": [
+          "level_01_commute_photo_1",
+          "level_01_commute_photo_2",
+          "level_01_commute_photo_3"
+        ],
+        "elapsed": 5000.000000000002,
+        "paused": false,
+        "challenge": null
+      },
+      "retryCount": 0
+    },
+    {
+      "character": "yier",
+      "level": 1,
+      "photo": 2,
+      "kind": "box-roof",
+      "success": true,
+      "startState": {
+        "screen": "game",
+        "level": "level_01_commute",
+        "character": "yier",
+        "x": 3676,
+        "y": 544,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "perfect": 0,
+        "happiness": 0,
+        "photos": [
+          "level_01_commute_photo_1",
+          "level_01_commute_photo_2",
+          "level_01_commute_photo_3"
+        ],
+        "elapsed": 633.3333333333333,
+        "paused": false,
+        "challenge": {
+          "id": "challenge-2",
+          "progress": {
+            "done": 0,
+            "total": 3
+          }
+        }
+      },
+      "steps": [
+        {
+          "target": "challenge-2-box",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 1,
+            "total": 3
+          },
+          "x": 3878.583333333341,
+          "y": 544,
+          "targetX": 3876.5833333333426,
+          "targetY": 544,
+          "perfect": 0
+        },
+        {
+          "target": "challenge-2-awning",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 2,
+            "total": 3
+          },
+          "x": 4017.8333333333453,
+          "y": 464,
+          "targetX": 4018,
+          "targetY": 464,
+          "perfect": 1
+        },
+        {
+          "target": "challenge-2-roof",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 3,
+            "total": 3
+          },
+          "x": 4190.333333333344,
+          "y": 408,
+          "targetX": 4188,
+          "targetY": 408,
+          "perfect": 2
+        },
+        {
+          "target": "challenge-2-finish",
+          "landed": false,
+          "active": false,
+          "progress": {
+            "done": 0,
+            "total": 0
+          },
+          "x": 4381.999999999995,
+          "y": 432,
+          "targetX": 4380,
+          "targetY": 432,
+          "perfect": 2
+        }
+      ],
+      "endState": {
+        "screen": "game",
+        "level": "level_01_commute",
+        "character": "yier",
+        "x": 4381.999999999995,
+        "y": 432,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 4,
+        "maxCombo": 4,
+        "perfect": 2,
+        "happiness": 1,
+        "photos": [
+          "level_01_commute_photo_1",
+          "level_01_commute_photo_2",
+          "level_01_commute_photo_3"
+        ],
+        "elapsed": 4833.333333333332,
+        "paused": false,
+        "challenge": null
+      },
+      "retryCount": 0
+    },
+    {
+      "character": "yier",
+      "level": 1,
+      "photo": 3,
+      "kind": "lamps",
+      "success": true,
+      "startState": {
+        "screen": "game",
+        "level": "level_01_commute",
+        "character": "yier",
+        "x": 7132,
+        "y": 544,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "perfect": 0,
+        "happiness": 0,
+        "photos": [
+          "level_01_commute_photo_1",
+          "level_01_commute_photo_2",
+          "level_01_commute_photo_3"
+        ],
+        "elapsed": 633.3333333333333,
+        "paused": false,
+        "challenge": {
+          "id": "challenge-3",
+          "progress": {
+            "done": 0,
+            "total": 3
+          }
+        }
+      },
+      "steps": [
+        {
+          "target": "challenge-3-lamp-pad-0",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 1,
+            "total": 3
+          },
+          "x": 7304.499999999986,
+          "y": 512,
+          "targetX": 7302,
+          "targetY": 512,
+          "perfect": 1
+        },
+        {
+          "target": "challenge-3-lamp-pad-1",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 2,
+            "total": 3
+          },
+          "x": 7473.16666666664,
+          "y": 464,
+          "targetX": 7472,
+          "targetY": 464,
+          "perfect": 2
+        },
+        {
+          "target": "challenge-3-lamp-pad-2",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 3,
+            "total": 3
+          },
+          "x": 7645.666666666626,
+          "y": 464,
+          "targetX": 7642,
+          "targetY": 464,
+          "perfect": 3
+        },
+        {
+          "target": "challenge-3-finish",
+          "landed": false,
+          "active": false,
+          "progress": {
+            "done": 0,
+            "total": 0
+          },
+          "x": 7837.333333333278,
+          "y": 496,
+          "targetX": 7836,
+          "targetY": 496,
+          "perfect": 3
+        }
+      ],
+      "endState": {
+        "screen": "game",
+        "level": "level_01_commute",
+        "character": "yier",
+        "x": 7837.333333333278,
+        "y": 496,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 7,
+        "maxCombo": 7,
+        "perfect": 3,
+        "happiness": 1,
+        "photos": [
+          "level_01_commute_photo_1",
+          "level_01_commute_photo_2",
+          "level_01_commute_photo_3"
+        ],
+        "elapsed": 4966.666666666668,
+        "paused": false,
+        "challenge": null
+      },
+      "retryCount": 0
+    },
+    {
+      "character": "yier",
+      "level": 2,
+      "photo": 1,
+      "kind": "balloons",
+      "success": true,
+      "startState": {
+        "screen": "game",
+        "level": "level_02_park",
+        "character": "yier",
+        "x": 1372,
+        "y": 544,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "perfect": 0,
+        "happiness": 0,
+        "photos": [
+          "level_02_park_photo_1",
+          "level_02_park_photo_2",
+          "level_02_park_photo_3"
+        ],
+        "elapsed": 633.3333333333333,
+        "paused": false,
+        "challenge": {
+          "id": "challenge-1",
+          "progress": {
+            "done": 0,
+            "total": 3
+          }
+        }
+      },
+      "steps": [
+        {
+          "kind": "balloons",
+          "frames": 191,
+          "state": {
+            "screen": "game",
+            "level": "level_02_park",
+            "character": "yier",
+            "x": 2104.166666666654,
+            "y": 510,
+            "vx": 230,
+            "vy": 0,
+            "grounded": true,
+            "surface": null,
+            "hearts": 3,
+            "damage": 0,
+            "combo": 4,
+            "maxCombo": 4,
+            "perfect": 0,
+            "happiness": 1,
+            "photos": [
+              "level_02_park_photo_1",
+              "level_02_park_photo_2",
+              "level_02_park_photo_3"
+            ],
+            "elapsed": 3833.3333333333208,
+            "paused": false,
+            "challenge": null
+          },
+          "events": [
+            {
+              "runId": "run-mu76e7l1",
+              "type": "photo_challenge_success",
+              "t": 4917,
+              "challengeId": "challenge-3",
+              "photoId": "level_01_commute_photo_3",
+              "timeMs": 4767
+            },
+            {
+              "runId": "run-mu76e7l1",
+              "type": "photo_challenge_start",
+              "t": 150,
+              "challengeId": "challenge-1",
+              "photoId": "level_02_park_photo_1"
+            },
+            {
+              "runId": "run-mu76e7l1",
+              "type": "photo_challenge_success",
+              "t": 3833,
+              "challengeId": "challenge-1",
+              "photoId": "level_02_park_photo_1",
+              "timeMs": 3683
+            }
+          ]
+        }
+      ],
+      "endState": {
+        "screen": "game",
+        "level": "level_02_park",
+        "character": "yier",
+        "x": 2107.9999999999873,
+        "y": 510,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 4,
+        "maxCombo": 4,
+        "perfect": 0,
+        "happiness": 1,
+        "photos": [
+          "level_02_park_photo_1",
+          "level_02_park_photo_2",
+          "level_02_park_photo_3"
+        ],
+        "elapsed": 3849.9999999999873,
+        "paused": false,
+        "challenge": null
+      },
+      "retryCount": 0
+    },
+    {
+      "character": "yier",
+      "level": 2,
+      "photo": 2,
+      "kind": "carousel",
+      "success": true,
+      "startState": {
+        "screen": "game",
+        "level": "level_02_park",
+        "character": "yier",
+        "x": 4828,
+        "y": 544,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "perfect": 0,
+        "happiness": 0,
+        "photos": [
+          "level_02_park_photo_1",
+          "level_02_park_photo_2",
+          "level_02_park_photo_3"
+        ],
+        "elapsed": 633.3333333333333,
+        "paused": false,
+        "challenge": {
+          "id": "challenge-2",
+          "progress": {
+            "done": 0,
+            "total": 3
+          }
+        }
+      },
+      "steps": [
+        {
+          "target": "challenge-2-horse-0",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 1,
+            "total": 3
+          },
+          "x": 5000.499999999986,
+          "y": 555,
+          "targetX": 4998,
+          "targetY": 555,
+          "perfect": 1
+        },
+        {
+          "target": "challenge-2-horse-1",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 2,
+            "total": 3
+          },
+          "x": 5176.833333333306,
+          "y": 511.49999999999994,
+          "targetX": 5176,
+          "targetY": 511.5,
+          "perfect": 2
+        },
+        {
+          "target": "challenge-2-horse-2",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 3,
+            "total": 3
+          },
+          "x": 5356.999999999958,
+          "y": 510.5,
+          "targetX": 5354,
+          "targetY": 510.5,
+          "perfect": 3
+        },
+        {
+          "target": "challenge-2-finish",
+          "landed": false,
+          "active": false,
+          "progress": {
+            "done": 0,
+            "total": 0
+          },
+          "x": 5533.333333333278,
+          "y": 500,
+          "targetX": 5532,
+          "targetY": 500,
+          "perfect": 3
+        }
+      ],
+      "endState": {
+        "screen": "game",
+        "level": "level_02_park",
+        "character": "yier",
+        "x": 5533.333333333278,
+        "y": 500,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 4,
+        "maxCombo": 4,
+        "perfect": 3,
+        "happiness": 1,
+        "photos": [
+          "level_02_park_photo_1",
+          "level_02_park_photo_2",
+          "level_02_park_photo_3"
+        ],
+        "elapsed": 4950.000000000001,
+        "paused": false,
+        "challenge": null
+      },
+      "retryCount": 0
+    },
+    {
+      "character": "yier",
+      "level": 2,
+      "photo": 3,
+      "kind": "air-chain",
+      "success": true,
+      "startState": {
+        "screen": "game",
+        "level": "level_02_park",
+        "character": "yier",
+        "x": 7132,
+        "y": 544,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "perfect": 0,
+        "happiness": 0,
+        "photos": [
+          "level_02_park_photo_1",
+          "level_02_park_photo_2",
+          "level_02_park_photo_3"
+        ],
+        "elapsed": 633.3333333333333,
+        "paused": false,
+        "challenge": {
+          "id": "challenge-3",
+          "progress": {
+            "done": 0,
+            "total": 5
+          }
+        }
+      },
+      "steps": [
+        {
+          "kind": "air-chain",
+          "frames": 187,
+          "state": {
+            "screen": "game",
+            "level": "level_02_park",
+            "character": "yier",
+            "x": 7848.833333333277,
+            "y": 509.99999999999994,
+            "vx": 230,
+            "vy": 0,
+            "grounded": true,
+            "surface": null,
+            "hearts": 3,
+            "damage": 0,
+            "combo": 6,
+            "maxCombo": 6,
+            "perfect": 0,
+            "happiness": 1,
+            "photos": [
+              "level_02_park_photo_1",
+              "level_02_park_photo_2",
+              "level_02_park_photo_3"
+            ],
+            "elapsed": 3766.6666666666547,
+            "paused": false,
+            "challenge": null
+          },
+          "events": [
+            {
+              "runId": "run-mu76e7l1",
+              "type": "photo_challenge_success",
+              "t": 4900,
+              "challengeId": "challenge-2",
+              "photoId": "level_02_park_photo_2",
+              "timeMs": 4750
+            },
+            {
+              "runId": "run-mu76e7l1",
+              "type": "photo_challenge_start",
+              "t": 150,
+              "challengeId": "challenge-3",
+              "photoId": "level_02_park_photo_3"
+            },
+            {
+              "runId": "run-mu76e7l1",
+              "type": "photo_challenge_success",
+              "t": 3767,
+              "challengeId": "challenge-3",
+              "photoId": "level_02_park_photo_3",
+              "timeMs": 3617
+            }
+          ]
+        }
+      ],
+      "endState": {
+        "screen": "game",
+        "level": "level_02_park",
+        "character": "yier",
+        "x": 7852.66666666661,
+        "y": 510,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 6,
+        "maxCombo": 6,
+        "perfect": 0,
+        "happiness": 1,
+        "photos": [
+          "level_02_park_photo_1",
+          "level_02_park_photo_2",
+          "level_02_park_photo_3"
+        ],
+        "elapsed": 3783.333333333321,
+        "paused": false,
+        "challenge": null
+      },
+      "retryCount": 0
+    },
+    {
+      "character": "yier",
+      "level": 3,
+      "photo": 1,
+      "kind": "fireflies",
+      "success": true,
+      "startState": {
+        "screen": "game",
+        "level": "level_03_starlight",
+        "character": "yier",
+        "x": 1372,
+        "y": 544,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 1,
+        "maxCombo": 1,
+        "perfect": 0,
+        "happiness": 0,
+        "photos": [
+          "level_03_starlight_photo_1",
+          "level_03_starlight_photo_2",
+          "level_03_starlight_photo_3"
+        ],
+        "elapsed": 633.3333333333333,
+        "paused": false,
+        "challenge": {
+          "id": "challenge-1",
+          "progress": {
+            "done": 1,
+            "total": 4
+          }
+        }
+      },
+      "steps": [
+        {
+          "target": "challenge-1-tree-pad-0",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 2,
+            "total": 4
+          },
+          "x": 1552.166666666663,
+          "y": 516,
+          "targetX": 1550,
+          "targetY": 516,
+          "perfect": 0
+        },
+        {
+          "target": "challenge-1-tree-pad-1",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 3,
+            "total": 4
+          },
+          "x": 1724.6666666666597,
+          "y": 476,
+          "targetX": 1720,
+          "targetY": 476,
+          "perfect": 0
+        },
+        {
+          "target": "challenge-1-tree-pad-2",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 4,
+            "total": 4
+          },
+          "x": 1885.6666666666565,
+          "y": 444,
+          "targetX": 1890,
+          "targetY": 444,
+          "perfect": 0
+        },
+        {
+          "target": "challenge-1-tree-pad-3",
+          "landed": false,
+          "active": false,
+          "progress": {
+            "done": 0,
+            "total": 0
+          },
+          "x": 2065.833333333319,
+          "y": 464,
+          "targetX": 2066,
+          "targetY": 464,
+          "perfect": 0
+        }
+      ],
+      "endState": {
+        "screen": "game",
+        "level": "level_03_starlight",
+        "character": "yier",
+        "x": 2054.3333333333194,
+        "y": 464,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 5,
+        "maxCombo": 5,
+        "perfect": 0,
+        "happiness": 1,
+        "photos": [
+          "level_03_starlight_photo_1",
+          "level_03_starlight_photo_2",
+          "level_03_starlight_photo_3"
+        ],
+        "elapsed": 5033.333333333336,
+        "paused": false,
+        "challenge": null
+      },
+      "retryCount": 0
+    },
+    {
+      "character": "yier",
+      "level": 3,
+      "photo": 2,
+      "kind": "meteor",
+      "success": true,
+      "startState": {
+        "screen": "game",
+        "level": "level_03_starlight",
+        "character": "yier",
+        "x": 4828,
+        "y": 544,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "perfect": 0,
+        "happiness": 0,
+        "photos": [
+          "level_03_starlight_photo_1",
+          "level_03_starlight_photo_2",
+          "level_03_starlight_photo_3"
+        ],
+        "elapsed": 633.3333333333333,
+        "paused": false,
+        "challenge": {
+          "id": "challenge-2",
+          "progress": {
+            "done": 0,
+            "total": 5
+          }
+        }
+      },
+      "steps": [
+        {
+          "target": "challenge-2-meteor-pad-0",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 1,
+            "total": 5
+          },
+          "x": 4923.833333333326,
+          "y": 544,
+          "targetX": 4928,
+          "targetY": 544,
+          "perfect": 1
+        },
+        {
+          "target": "challenge-2-meteor-pad-1",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 2,
+            "total": 5
+          },
+          "x": 5065.666666666648,
+          "y": 500,
+          "targetX": 5063,
+          "targetY": 500,
+          "perfect": 2
+        },
+        {
+          "target": "challenge-2-meteor-pad-2",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 3,
+            "total": 5
+          },
+          "x": 5199.833333333304,
+          "y": 500,
+          "targetX": 5198,
+          "targetY": 500,
+          "perfect": 3
+        },
+        {
+          "target": "challenge-2-meteor-pad-3",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 4,
+            "total": 5
+          },
+          "x": 5333.99999999996,
+          "y": 452,
+          "targetX": 5333,
+          "targetY": 452,
+          "perfect": 4
+        },
+        {
+          "target": "challenge-2-meteor-pad-4",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 5,
+            "total": 5
+          },
+          "x": 5464.333333333283,
+          "y": 480,
+          "targetX": 5468,
+          "targetY": 480,
+          "perfect": 5
+        },
+        {
+          "target": "challenge-2-finish",
+          "landed": false,
+          "active": false,
+          "progress": {
+            "done": 0,
+            "total": 0
+          },
+          "x": 5598.499999999939,
+          "y": 504,
+          "targetX": 5596,
+          "targetY": 504,
+          "perfect": 5
+        }
+      ],
+      "endState": {
+        "screen": "game",
+        "level": "level_03_starlight",
+        "character": "yier",
+        "x": 5598.499999999939,
+        "y": 504,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 11,
+        "maxCombo": 11,
+        "perfect": 5,
+        "happiness": 1,
+        "photos": [
+          "level_03_starlight_photo_1",
+          "level_03_starlight_photo_2",
+          "level_03_starlight_photo_3"
+        ],
+        "elapsed": 7050.000000000039,
+        "paused": false,
+        "challenge": null
+      },
+      "retryCount": 0
+    },
+    {
+      "character": "yier",
+      "level": 3,
+      "photo": 3,
+      "kind": "camp-lamps",
+      "success": true,
+      "startState": {
+        "screen": "game",
+        "level": "level_03_starlight",
+        "character": "yier",
+        "x": 7132,
+        "y": 544,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 1,
+        "maxCombo": 1,
+        "perfect": 0,
+        "happiness": 0,
+        "photos": [
+          "level_03_starlight_photo_1",
+          "level_03_starlight_photo_2",
+          "level_03_starlight_photo_3"
+        ],
+        "elapsed": 633.3333333333333,
+        "paused": false,
+        "challenge": {
+          "id": "challenge-3",
+          "progress": {
+            "done": 1,
+            "total": 3
+          }
+        }
+      },
+      "steps": [
+        {
+          "target": "challenge-3-star-0",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 2,
+            "total": 3
+          },
+          "x": 7358.166666666649,
+          "y": 504,
+          "targetX": 7357,
+          "targetY": 504,
+          "perfect": 0
+        },
+        {
+          "target": "challenge-3-star-1",
+          "landed": true,
+          "active": true,
+          "progress": {
+            "done": 3,
+            "total": 3
+          },
+          "x": 7584.333333333298,
+          "y": 464,
+          "targetX": 7580,
+          "targetY": 464,
+          "perfect": 0
+        },
+        {
+          "target": "challenge-3-star-2",
+          "landed": false,
+          "active": false,
+          "progress": {
+            "done": 0,
+            "total": 0
+          },
+          "x": 7798.999999999947,
+          "y": 496,
+          "targetX": 7802,
+          "targetY": 496,
+          "perfect": 0
+        }
+      ],
+      "endState": {
+        "screen": "game",
+        "level": "level_03_starlight",
+        "character": "yier",
+        "x": 7810.499999999946,
+        "y": 496,
+        "vx": 0,
+        "vy": 0,
+        "grounded": true,
+        "surface": null,
+        "hearts": 3,
+        "damage": 0,
+        "combo": 4,
+        "maxCombo": 4,
+        "perfect": 0,
+        "happiness": 1,
+        "photos": [
+          "level_03_starlight_photo_1",
+          "level_03_starlight_photo_2",
+          "level_03_starlight_photo_3"
+        ],
+        "elapsed": 3999.999999999986,
+        "paused": false,
+        "challenge": null
+      },
+      "retryCount": 0
+    }
+  ],
+  "errors": []
+}

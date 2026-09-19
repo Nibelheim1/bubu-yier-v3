@@ -1,0 +1,153 @@
+{
+  "cases": [
+    {
+      "case": "horizontal_5s",
+      "result": {
+        "before": {
+          "x": 2617.333333333331,
+          "px": 2620.533333333331,
+          "y": 558,
+          "py": 558
+        },
+        "after": {
+          "x": 2696.26666666666,
+          "px": 2699.46666666666,
+          "y": 558,
+          "py": 558
+        },
+        "offsetDrift": 0,
+        "state": {
+          "screen": "game",
+          "level": "level_01_commute",
+          "character": "bubu",
+          "x": 2695.1999999999935,
+          "y": 558,
+          "vx": 0,
+          "vy": 0,
+          "grounded": true,
+          "surface": null,
+          "hearts": 3,
+          "damage": 0,
+          "combo": 0,
+          "maxCombo": 0,
+          "perfect": 0,
+          "happiness": 0,
+          "photos": [],
+          "elapsed": 5650.000000000014,
+          "paused": false,
+          "challenge": null
+        }
+      }
+    },
+    {
+      "case": "vertical_5s",
+      "result": {
+        "maxGap": 1.0833333333332575,
+        "airFrames": 5,
+        "state": {
+          "screen": "game",
+          "level": "level_02_park",
+          "character": "bubu",
+          "x": 2864,
+          "y": 557,
+          "vx": 0,
+          "vy": -30,
+          "grounded": true,
+          "surface": null,
+          "hearts": 3,
+          "damage": 0,
+          "combo": 0,
+          "maxCombo": 0,
+          "perfect": 0,
+          "happiness": 0,
+          "photos": [],
+          "elapsed": 5316.666666666674,
+          "paused": false,
+          "challenge": null
+        },
+        "platformY": 557
+      }
+    },
+    {
+      "case": "perfect_once",
+      "result": {
+        "first": {
+          "perfect": 1,
+          "combo": 1,
+          "y": 544,
+          "py": 544
+        },
+        "after": {
+          "perfect": 1,
+          "combo": 1
+        }
+      }
+    },
+    {
+      "case": "pause_freezes_time",
+      "result": {
+        "before": {
+          "t": 2233.3333333333353,
+          "combo": 3800,
+          "x": 450
+        },
+        "paused": {
+          "t": 2233.3333333333353,
+          "combo": 3800,
+          "x": 450
+        },
+        "after": {
+          "screen": "game",
+          "level": "level_01_commute",
+          "character": "bubu",
+          "x": 450,
+          "y": 544,
+          "vx": 0,
+          "vy": 0,
+          "grounded": true,
+          "surface": null,
+          "hearts": 3,
+          "damage": 0,
+          "combo": 4,
+          "maxCombo": 4,
+          "perfect": 1,
+          "happiness": 0,
+          "photos": [],
+          "elapsed": 2266.6666666666683,
+          "paused": false,
+          "challenge": null
+        }
+      }
+    },
+    {
+      "case": "exhausted_checkpoint",
+      "result": {
+        "beforeTime": 2266.6666666666683,
+        "state": {
+          "screen": "game",
+          "level": "level_01_commute",
+          "character": "bubu",
+          "x": 2360,
+          "y": 672,
+          "vx": 0,
+          "vy": 0,
+          "grounded": true,
+          "surface": null,
+          "hearts": 3,
+          "damage": 1,
+          "combo": 0,
+          "maxCombo": 4,
+          "perfect": 1,
+          "happiness": 0,
+          "photos": [],
+          "elapsed": 3766.6666666666547,
+          "paused": false,
+          "challenge": null
+        },
+        "alpha": 1,
+        "flip": true
+      }
+    }
+  ],
+  "errors": []
+}

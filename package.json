@@ -1,0 +1,16 @@
+{
+  "name": "bubu-yier-little-journey-v3",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "布布一二：去见你的小幸福 V3 · 基于 V2.1 全量重做的 Phaser 3 H5 工程",
+  "scripts": {
+    "dev": "node scripts/serve.mjs --dev",
+    "maps": "node scripts/generate-maps.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
